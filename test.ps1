@@ -1,2 +1,1 @@
-Timontest
-test
+get-childitem -path C:\
