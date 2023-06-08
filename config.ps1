@@ -1,10 +1,10 @@
-#--------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------
 # Autor: Timon Wagner
-# Funktion des Skripts: Konfigurationen, z.B. Pfade bereitstellen
+# Funktion des Skripts: Konfigurationen, z.B. Pfade bereitstellen, Namen der OU's benennen
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen:
-#--------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------
 $config = @{
     SchuelerCsv  = "C:\tmp\PSProjekt\schueler.csv"
     InitPw       = "bztf.001"
