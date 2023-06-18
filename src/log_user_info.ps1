@@ -12,7 +12,7 @@
 Import-Module ActiveDirectory
 
 # Pfad und Dateiname des Logfiles definieren
-$logFile = "Pfad/zum/Logfile.log"
+$logFile = "C:\github\PS-AD_CoWa\logfiles\logfile.log"
 
 # Funktion zum Protokollieren der Benutzerinformationen
 function Log-UserInfo {

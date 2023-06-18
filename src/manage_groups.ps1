@@ -11,8 +11,8 @@
 Import-Module ActiveDirectory
 
 # Pfade und Dateinamen definieren
-$xmlFile = "Pfad/zur/XML-Datei.xml"
-$logFile = "Pfad/zum/Logfile.log"
+$xmlFile = "C:\github\PS-AD_CoWa\Data\schueler.xml"
+$logFile = "C:\github\PS-AD_CoWa\logfiles\logfile.log"
 
 # Überprüfe, ob die XML-Datei vorhanden ist
 if (Test-Path $xmlFile) {

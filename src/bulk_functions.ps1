@@ -24,7 +24,7 @@ function Update-MultipleADUsers {
         $user = Get-ADUser -Identity $username
 
         if ($user) {
-            Set-ADUser -Identity $user -Replace @{ $Property = $Value }
+            Set-ADUser -Identity $user.DistinguishedName -Replace @{ $Property = $Value }
 
             Write-Host "Die Eigenschaft '$Property' für den Benutzer '$username' wurde erfolgreich auf '$Value' aktualisiert."
         } else {
