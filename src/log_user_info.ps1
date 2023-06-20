@@ -1,18 +1,17 @@
 #----------------------------------------------------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Sicherheitstechnisch wichtige Informationen der AD-Benutzer protokollieren
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen: Dieses Skript protokolliert täglich wichtige Informationen der AD-Benutzer wie das
-# Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins. Es ist zuverlässig, effizient
-# und gut dokumentiert, um die bestmögliche Note zu erzielen.
+# Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins.
 #----------------------------------------------------------------------------------------------------------
 
 # Lade die erforderlichen Module
 Import-Module ActiveDirectory
 
 # Pfad und Dateiname des Logfiles definieren
-$logFile = "C:\github\PS-AD_CoWa\logfiles\logfile.log"
+$logFile = "C:\github\PS-AD_CoWa\logfiles\taegliches_protokoll.log"
 
 # Funktion zum Protokollieren der Benutzerinformationen
 function Log-UserInfo {
@@ -28,9 +27,10 @@ function Log-UserInfo {
         $lastLogonDate = $user.LastLogonDate
         $logonCount = $user.LogonCount
 
+        # Informationen formatieren
+        $logMessage = "{0} | Benutzer: {1,-15} | Passwortalter: {2,-5} Tage | Letzte Anmeldung: {3,-20} | Logins: {4}" -f $currentDateTime, $username, $passwordAge, $lastLogonDate, $logonCount
+
         # Informationen protokollieren
-        $logMessage = "$currentDateTime - Benutzer: $username, Passwortalter: $passwordAge Tage, " +
-                      "Letzte Anmeldung: $lastLogonDate, Logins: $logonCount"
         Add-Content -Path $logFile -Value $logMessage
     }
 }

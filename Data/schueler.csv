@@ -1,7 +1,1416 @@
 Name;Vorname;Benutzername;Klasse;Klasse2
-Frey;Nicola;nicola.frey;INF18A;BM1_TE18A
-Geisser;Jan;jan.geisser;PKB17A;BM1_TE17A
-Schroeter;Sarah;sarah.schroeter;INF17S;BM1_TE17A
-Slezinger;Jana;jana.slezinger;DRO18A;
-Bla;Blabla;bli.blo;IN22A;
-Junior;Rene;Wirt.Siktir;IN22A;
+Frey;Nicola;nicola_frey;INF18A;BM1_TE18A
+Geisser;Jan;jan_geisser;PKB17A;BM1_TE17A
+Schroeter;Sarah;sarah_schroeter;INF17S;BM1_TE17A
+Slezinger;Jana;jana_slezinger;DRO18A;
+Sterchi;Leif;leif_sterchi;INF17S;BM1_TE17A
+Wenk;Fabian;fabian_wenk;PKB17A;BM1_TE17A
+Ris;Mattia;mattia_ris;PKB18A;BM1_TE18A
+Greco;Matteo;matteo_greco;INF17S;
+Lo Brutto;Lea;lea_lobrutto;REF18A;
+Calaciura;Aurora;aurora_calaciura;PKB17A;BM1_TE17A
+Schwab;Pascal;pascal_schwab;PKB17A;BM1_TE17A
+Temporal;Nicola;nicola_temporal;INF17A;BM1_TE17A
+Barbisch;Florin;florin_barbisch;INF17A;BM1_TE17A
+Kamber;Joel;joel_kamber;PKB18A;BM1_TE18A
+Mueller;Fabio;fabio_mueller;PKB18A;BM1_TE18B
+Misteli;Remo;remo_misteli;INF18B;
+Kehl;Nils;nils_kehl;BM1_TE18B;
+Ziegler;Lars;lars_ziegler;SPE;
+Hofer;Raphael Fabian;raphaelfabian_hofer;INF18A;
+Affolter;Fabian;fabian_affolter;VWB17B;
+Affolter;Lara;lara_affolter2;VWB18C;
+Beier;Al Haddad;beier_alhaddad;AUA17A;
+Albisser;Jo Lena;jo_albisser;VWB18A;
+Aliu;Lerint;lerint_aliu;AUF17A;VWB18B
+Allemann;Raphael;raphael_allemann;VWB18A;
+Bader;Ramona;ramona_bader;VWB18A;
+Bajramaj;Gjyljet;gjyljet_bajramaj;REF17A;
+Baumann;Damian;damian_baumann;AUA17A;
+Berki;Kevin;kevin_berki;Ex;
+Bettschen;Nicolas;nicolas_bettschen;BM2_TE18A;
+Bewsher;Kevin;kevin_bewsher;VWB18B;
+Bluelle;Talisa Chiara Rea;talisa_bluelle;VWB17C;
+Casanova Moure;Carlos;carlos_casanova;VWB17B;
+Chirico;Mattia;mattia_chirico;VWB17C;
+Christen;Carmen;carmen_christen;VWB18A;
+Di Giacinto;Lia;lia_digiacinto;VWB17C;
+Duppenthaler;Leon;leon_duppenthaler;VWB17C;
+Eberhard;Ivan;ivan_eberhard;BM2_TE18B;
+Flueckiger;Nils;nils_flueckiger;VWB17A;
+Fuerst;Gabriel;gabriel_fuerst;BM2_TE18A;
+Fuerst;Jasmine;jasmine_fuerst;VWB18C;
+Gadient;Pascal;pascal_gadient;AUA17A;
+Gashi;Ardian;ardian_gashi;AUA17A;
+Halimi;Arta;arta_halimi;VWB18B;
+Henzi;Janine;janine_henzi;VWB17C;
+Holzer;Jonathan;jonathan_holzer;VWB18C;
+Huber;Luca;luca_huber;VWB17A;
+Kerdy;Majed;majed_kerdy;KUA17A;
+Ledermann;Jessica;jessica_ledermann;KUA17A;
+Liechti;Louis;louis_liechti;VWB18A;
+Mehari;Henok;henok_mehari;KUA17A;
+Micelli;Mirko;mirko_micelli;VWB18B;
+Nyffeler;Gina;gina_nyffeler;REF18A;
+Orlandi;Elias;elias_orlandi;VWB17B;
+Paurevic;Dario;dario_paurevic;PRM18A;
+Plepel;Raphael;raphael_plepel;BM2_TE18B;
+Schaerli;Jan;jan_schaerli;VWB18C;
+Schmutz;Leandro Niklas;leandro_schmutz;VWB18A;
+Schranz;Nils;nils_schranz;Ex;
+Stampfli;Gabriel;gabriel_stampfli;Ex;
+Stampfli;Janine;janine_stampfli;;VWB18C
+Steiner;Robin;robin_steiner;VWB18A;
+Suntinger;David;david_suntinger;BM2_TE18A;
+Teame;Fiori;fiori_teame;INVOL18B;
+Vugts;Dennis;dennis_vugts;VWB18B;
+Wyss;Lukas;lukas_wyss3;BM2_TE18B;
+Zolli;Lea;lea_zolli;INF17S;
+Zwygart;Dominik;dominik_zwygart;BM2_TE18B;
+Aeschbach;Rahel;rahel_aeschbach;MPR17A;
+Saglam;Metin;metin_saglam;KOE18A;
+Amiet;Andry;andry_amiet;PRM18A;
+Blechschmidt;Patrice;patrice_blechschmidt;BM1_TE16A;
+Chennanparambil;Deepu;deepu_chennanparambil;BM2_TE18A;
+Eggenberger;Joshua;joshua_eggenberger;BM1_TE16A;
+Gasser;Flurin;flurin_gasser;BM1_TE15B;
+Hanselmann;Nicolas;nicolas_hanselmann;BM2_TE18B;
+Hess;Luk;luk_hess;BM1_TE15B;
+Kissling;Sophia;sophia_kissling;BM1_TE15B;
+Kristiansen;Julia;julia_kristiansen;BM1_TE15B;
+Nussbaumer;Matthias;matthias_nussbaumer;VWB18B;
+Ritter;Timo;timo_ritter;BM2_TE18B;
+von Daeniken;Philipp;philipp_vondaeniken;VWB17B;
+Witmer;Yves;yves_witmer;BM2_TE18A;
+Zwahlen;Sven;sven_zwahlen;BM1_TE15B;
+Gasser;Sarah;sarah_gasser;BM1_TE15A;
+Ledergerber;Rahel;rahel_ledergerber;BM1_TE16B;
+Lorenz;Robin;robin_lorenz;BM1_TE15B;
+Moraschini;Michele;michele_moraschini;BM1_TE16B;
+Moser;Marco;marco_moser;BM1_TE16A;
+Mueller;Luana;luana_mueller2;BM1_TE15A;
+Palm;Leander;leander_palm;BM1_TE15A;
+Rueegger;Aaron;aaron_rueegger;BM1_TE15A BM1_TE15A;
+Steinmann;Naja Lis;najalis_steinmann;BM1_TE15A;
+Stoll;Neal;neal_stoll;BM1_TE16B;
+Abdullahu;Adriatik;adriatik_abdullahu;NPR17A;
+Abt;Kevin;kevin_abt;PKB15A;BM1_TE15A
+Achermann;Carla Mara;carla_achermann;WTG16A;
+Achermann;Kira;kira_achermann;REF16A;
+Ackermann;Svenja;svenja_ackermann;KOE18A;
+Adam;Baro;baro_adam;PMG15B;
+Adam;Tim;tim_adam;PKE15A;
+Adamo;Romina;romina_adamo;BM2_TE18A;
+Aerni;Fabienne;fabienne_aerni;DRO16A;
+Aeschlimann;Robin;robin_aeschlimann;INF15A;
+Affolter;Janik;janik_affolter;AUM16A;
+Ahmad Karem;Aram;aram_karem;PKE15A;
+Akcay;Hueseyin;hueseyin_akcay;BM2_TE18A;
+Al Ali;Mohamad Louay;louay_alali;PRM16C;
+Ali;Rana;rana_ali;KOE18A;
+Aliu;Shendrit;shendrit_aliu;PKE15A;
+Ammann;Raphael;raphael_ammann;INF16B;
+Amorosi;Leonardo;leonardo_amorosi;PRM16A;
+Amoroso;Luca;luca_amoroso;AUM15A;
+Apawan;Jeremeah;jeremeah_apawan;AUF16B;
+Arnold;Stefan;stefan_arnold;ELT15A;BM1_TE15A
+Avdili;Driton;driton_avdili;PRM16B;
+Bachmann;Luca;luca_bachmann;INF16A;BM1_TE16B
+Baer;Ramon;ramon_baer;KOE16B;
+Barrer;Mike;mike_barrer;PMG15A;
+Baertschi;Joshua;joshua_baertschi;PMG15A;
+Baumann;Marco Luc;marcoluc_baumann;PKE16A;
+Baumann;Sammy;sammy_baumann;AUM16A;
+Baumgartner;Lukas;lukas_baumgartner;AUF16A;
+Bavetta;Silvia;silvia_bavetta;INF16A;
+Berekteab;Biniam;biniam_berekteab;IJBV18A;
+Berg;Lars Christian;larschristian_berg;INF15A;
+Berger;Samir;samir_berger;PKB16A;BM1_TE16A
+Beronilla;Darlyn;darlyn_beronilla;PMG15B;
+Beshiri;Kjenan;kjenan_beshiri;PRM16B;
+Bieri;Ramon;ramon_bieri;PME16A;VWB18A
+Bill;Arun;arun_bill;KOE18B;
+Bischof;Desideria;desideria_bischof;PMG16B;VWB18A
+Bisevac;Raif;raif_bisevac;PRM16A;
+Bitterli;Lukas;lukas_bitterli;PKE16A;VWB18A
+Blatter;Selina;selina_blatter;KOE16C;
+Bonavita;Francesco;francesco_bonavita;AUF17A;
+Boos;Matthias;matthias_boos;INF15S;BM1_TE15A
+Borel;Pascal;pascal_borel;INF15A;BM1_TE15B
+Borer;Larissa;larissa_borer;PMG15B;
+Bosankic;Antonio;antonio_bosankic;INF15A;BM1_TE15A
+Boesch;Jennifer;jennifer_boesch;DRO16A;
+Brand;Ramon;ramon_brand;PMG16A;
+Braun;Marcel;marcel_braun;KOE16C;
+Bruegger;Jan;jan_bruegger;KOE16B;
+Bruttin;Laurent;laurent_bruttin;BM1_TE16A;
+Buchser;Timo;timo_buchser;Ex;
+Buehler;Rahel;rahel_buehler;BM2_TE18A;
+Bui;Hong Nhung Diana;hongnhungdiana_bui;WTG16A;
+Buergi;Luana;luana_buergi;REF16A;
+Burgo;Francesco;francesco_burgo;AUF16A;
+Buettler;Jan;jan_buettler;PME16A;
+Buettler;Lukas;lukas_buettler;KOE16A;
+Carrel;Michelle;michelle_carrel;REF16A;
+Castro;Leonardo;leonardo_castro;PKB16A;BM1_TE16A
+Celikovic;Asmir;asmir_celikovic;PRM16C;
+Ceravolo;Leandro Giuseppe;leandro_ceravolo;DRO15A;
+Cerri;Mattia;mattia_cerri;PME16A;VWB18C
+Christ;Luca;luca_christ;PMG15A;
+Ciullo;Michelle;michelle_ciullo;INF15A;BM1_TE15B
+Culik;Nicola;nicola_culik;INF15S;
+Cusumano;Debora;debora_cusumano;KOE16C;
+Dagci;Abdulkadir;abdulkadir_dagci;BM2_TE18A;
+D'Amico;Mattia;mattia_damico;AUM15A;
+D'Antoni;Luca;luca_dantoni;PKB15A;BM1_TE15B
+D'Antoni;Nico;nico_dantoni;PKE16A;
+Dasan;Narthana;narthana_dasan;INF16A;BM1_TE16A
+Daetwyler;Benjamin;benjamin_daetwyler;BM2_TE18A;
+Dedaj;Pren;pren_dedaj;PRM16A;
+Dedic;David;david_dedic;INF16S;BM1_TE16A
+Derendinger;Celine;celine_derendinger;KOE16A;
+Deutsch;Natalie;natalie_deutsch;WTG16A;
+Diethelm;Michael;michael_diethelm;PMG15A;
+Dietlin;Loris;loris_dietlin;PMG15B;
+Dietschi;Christian;christian_dietschi;PMG15B;
+Djokic;Stefan;stefan_djokic;AUM15A;
+Doener;Esna;esna_doener;REF16A;
+D'Onofrio;Livio;livio_donofrio;PMG15B;
+Douch;Khalid;khalid_douch;BM2_TE18A;
+Dreher;Alexandra;alexandra_dreher;REF16B;
+Ebeoglu;Kadir;kadir_ebeoglu;AUF16A;
+Eichenberger;Gina;gina_eichenberger;PKE15A;
+El Sakakini;Mustapha;mustapha_elsakakini;AUF16A;
+Elezi;Gjelbrim;gjelbrim_elezi;PRM16A;
+Elezi;Qendrim;qendrim_elezi;PRM16C;
+Elsaesser;Alexander;alexander_elsaesser;PMG16B;VWB18C
+Emmenegger;Rebecca;rebecca_emmenegger;INF16S;BM1_TE16A
+Erken;Ecehan Arife;ecehanarife_erken;INF15A;
+Escurriola;Jan;jan_escurriola;PKE16A;
+Eser;Elif;elif_eser;KOE16A;
+Espana Montoya;Michele Maria-Isabel Lilian;michele_espna;REF16A;
+Eyasu;Selam;selam_eyasu;INVOL18B;
+Fahrni;Sebastian;sebastian_fahrni;ELT15A;VWB17A
+Fankhauser;Jannis Reto;jannis_fankhauser;PKE15A;VWB17B
+Fasnacht;Gian;gian_fasnacht;PKE15A;
+Favaro;Loris;loris_favaro;INF15A;
+Feder;Alessandro;alessandro_feder;AUF16A;
+Feldmann;Celina Larissa;celina_feldmann;PKE16A;VWB18C
+Fernandes;Ellen;ellen_fernandes;REF16A;
+Fetija;Halim;halim_fetija;AUF17A;
+Fiechter;Karim;karim_fiechter;PKE15A;
+Fillinger;Alisha;alisha_fillinger;REF16B;
+Fischer;Andrea;andrea_fischer;BM2_TE18B;
+Flueeli;Jonas;jonas_flueeli;AUM16A;
+Fluri;Jonas;jonas_fluri;PKB15A;BM1_TE15A
+Flury;Jan;jan_flury;PMG15A;
+Flury;Leander;leander_flury;PME16A;VWB18B
+Flury;Sanja;sanja_flury;PME16A;VWB18A
+Fomasi;Michael;michael_fomasi;AUF17A;
+Fraeulin;Fabio;fabio_fraeulin;INF15S;BM1_TE15A
+Freudiger;Jordi;jordi_freudiger;ELT15A;
+Frey;Lucas;lucas_frey;KOE16A;
+Friedli;Cyrill;cyrill_friedli;Ex;
+Friedli;Fabio Maick;fabiomaick_friedli;INF16S;BM1_TE16A
+Fueeg;Celine;celine_fueeg;AUF16B;
+Fuhrer;Jarno;jarno_fuhrer;KOE16A;
+Furrer;Livio;livio_furrer;AUM16A;VWB18A
+Fuerst;Christian;christian_fuerst;INF16A;
+Fuerst;Kevin;kevin_fuerst;KOE16A;
+Gaberell;Patrik;patrikanton_gaberell;PKE15A;
+Galli;Jerome;jerome_galli;PKE15A;
+Gambardelli;Alessandro;alessandro_gambardelli;PRM16A;
+Ganeshalingam;Jesinthan;jesinthan_ganeshalingam;PMG16A;VWB18B
+Gantenbein;Simon;simon_gantenbein;PMG15A;VWB17A
+Garcia;Jonathan;jonathan_garcia;KOE16C;
+Gasche;Noa;noa_gasche;INF16A;
+Gashi;Ilaz;ilaz_gashi;PMG16A;
+Gasser;Jan;jan_gasser;ELT15A;
+Geiser;Patrick Thomas;patrick_geiser;KOE16B;
+Geller;Vanessa;vanessa_geller;DRO16A;VWB18B
+Gerber;Colin;colin_gerber;PKE16A;
+Gerber;Jonas Manuel;jonas_gerber;PKB15A;BM1_TE15B
+Giezendanner;Erin;erin_giezendanner;INF15A;VWB17A
+Gilgen;Joël;joel_gilgen;PMG15A;
+Girard;Leo;leo_girard;PMG16B;VWB18B
+Giroud;Nicolas;nicolas_giroud;PMG15A;
+Gjoklaj;Kristian;kristian_gjoklaj;PRM16B;
+Gjukaj;Valmir;valmir_gjukaj;PRM16C;
+Graber;Sandro;sandro_graber;PMG15A;
+Greuter;Damaris;damaris_greuter;WTG16A;
+Grimbichler;Simon;simon_grimbichler;KOE16A;
+Grolimund;Simon;simon_grolimund;AUM15A;
+Grotti;Anicia;anicia_grotti;DRO16A;
+Gschwind;Darius;darius_gschwind;PRM16A;
+Guldimann;Andrin;andrin_guldimann;REF16B;
+Guenther;Cedric;cedric_guenther;PRM17B;
+Gutmann;Nick;nick_gutmann;PMG16A;VWB18B
+Habegger;Sven;sven_habegger;AUF16B;
+Haefeli;Larissa Selina;larissa_haefeli;KOE17A;
+Haefeli;Nicolas Yves;nicolasyves_haefeli;INF16S;
+Haefeli;Robin;robin_haefeli;PRM16A;
+Hafner;Noemi;noemi_hafner;PKE16A;
+Hagmann;Virgile;virgile_hagmann;BM2_TE18B;
+Haldi;Alain;alain_haldi;PME16A;VWB18A
+Haller;Samuel;samuel_haller;REF16A;
+Haenzi;Fabian;fabian_haenzi;PKB15A;BM1_TE15A
+Hardmeier;Annina;annina_hardmeier;WTG16A;
+Hasho;Filmawit;filmawit_hasho;IJBV18C;
+Hassen;Nema;nema_hassen;KUA17A;
+Haussener;Pascal;pascal_haussener;KOE16C;
+Heck;Luca Maximilian;lucamaximilian_heck;AUF16A;
+Hegelbach;Lukas;lukas_hegelbach;AUF16B;
+Heil;Bernard Andreas;bernardandreas_heil;AUM16A;
+Herrmann;Nico;nico_herrmann;INF16S;
+Herzig;Jason;jason_herzig;PRM16A;
+Herzog;Luana;luana_herzog;INF16S;
+Hess;Mike;mike_hess;AUF16B;
+Hesse;Leon;leon_hesse;DRO15A;
+Hirschi;Jeremy Luca;jeremyluca_hirschi;PMG16A;
+Hubler;Lorenz;lorenz_hubler;PKE16A;VWB18A
+Huegli;Jill;jill_huegli;WTG16A;
+Huguenin;Tom;tom_huguenin;PRM16A;
+Hummel;Joris;joris_hummel;PME16A;VWB18C
+Huser;Janis;janis_huser;INF16S;BM1_TE16A
+Ibrahim;Mensur;mensur_ibrahim;KUA18A;
+Ingold;Elias;elias_ingold2;INF16A;BM1_TE16B
+Isovic;Selman;selman_isovic;PRM16A;
+Jaeggi;Joel;joel_jaeggi;PKE15A;
+Jakob;Gian;gian_jakob;AUM15A;
+Javet;Joel;joel_javet;AUF16A;
+Jedrinovic;Luka;luka_jedrinovic;PMG16A;
+Jeirasa;Amirtharaj;amirtharaj_jeirasa;PRM16B;
+Jeker;Amanda;amanda_jeker;DRO16A;
+Jeker;Patric;patric_jeker;INF15S;
+Jetzer;Michael;michael_jetzer;PMG15B;
+Joehr;Nicola;nicola_joehr;PRM16C;
+Jordi;Ruben;ruben_jordi;KOE16B;
+Joeri;Samuel;samuel_joeri;PKE15A;
+Jost;Tom;tom_jost;KOE16B;
+Jovanovic;Stefan;stefan_jovanovic;PMG16A;
+Jozic;Ivana;ivana_jozic;REF16A;
+Jusufi;Fahir;fahir_jusufi;PME16A;VWB18B
+Juettner;Neil Jan;neiljan_juettner;AUM16A;
+Kahlert;Christian;christian_kahlert;PMG16A;
+Kaiser;Iris;iris_kaiser;DRO15A;
+Kaeppeli;Chiara;chiara_kaeppeli;DRO16A;
+Kappler;Laura;laura_kappler;REF16A;
+Karabas;Aykut;aykut_karabas;PRM16B;
+Karabasic;Benjamin;benjamin_karabasic;PMG16A;
+Karabulut;Mete;mete_karabulut;PMG15B;
+Kartsang;Karma Woeser;karmawoeser_kartsang;REF18A;
+Kastrati;Elijan;elijan_kastrati;PMG16A;
+Kaufmann;Celine;celine_kaufmann;KOE16B;
+Kaufmann;Karin;karin_kaufmann;REF16A;
+Keller;Sina Valentina Verena;sina_keller;KOE16B;
+Kern;Daniel;daniel_kern;AUM16A;
+Ket;Atilla Kaan;atillakaan_ket;AUM16A;VWB18C
+Knecht;Stefanie;stefanie_knecht;WTG16A;
+Knuchel;Shaya;shaya_knuchel;AUF16A;
+Kocher;Jannick;jannick_kocher;AUF16B;
+Kocher;Patris;patris_kocher;KOE16C;
+Kock;Jacob Niklas;jacobniklas_kock;REF16A;
+Kolly;Samuel;samuel_kolly;REF16A;
+Kopp;Jana;jana_kopp;INF15A;VWB17A
+Korfmacher;David;david_korfmacher;INF15S;BM1_TE15B
+Kozejeva;Vlada;vlada_kozejeva;REF16B;
+Kqira;Kaltrina;kaltrina_kqira;REF16A;
+Kradolfer;Pascal;pascal_kradolfer;PMG15A;VWB17A
+Kuhn;Gabriel;gabriel_kuhn;INF16S;
+Kuenzi;Cedric;cedric_kuenzi2;BM1_TE15B;
+Kureth;Chris;chris_kureth;PKE15A;
+Kurth;Janick;janick_kurth;BM2_TE18B;
+Laeng;Janick;janick_laeng;INF16B;
+Lankanesan;Nehemiah;nehemiah_lankanesan;PRM16A;
+Lanz;Franco;franco_lanz;AUM16A;
+Lanz;Yves Andre;yvesandre_lanz;PRM16C;
+Lauber;Christof;christof_lauber;KOE16C;
+Lehmann;Tamara;tamara_lehmann;DRO15A;
+Leu;Julian;julian_leu;PKB15A;BM1_TE15A
+Leuenberger;Jan;jan_leuenberger;KOE16C;
+Leuthold;Aline;aline_leuthold;WTG16A;
+Liechti;Charles Georges;charlesgeorges_liechti;INF16S;
+Lingner;Simea;simea_lingner;WTG16A;
+Lipovica;Clirim;clirim_lipovica;PMG16A;
+Lira Dos Santos;Gildeyck;gildeyck_liradossantos;KOE16C;
+Ljubic;Jovan;jovan_ljubic;REF16B;
+Lobnig;Ramona;ramona_lobnig;REF16B;
+Looser;Dario;dario_looser;PMG15A;
+Loseni;Christian;christian_loseni;KOE16B;
+Louridi;Hasnae;hasnae_louridi;KOE17A;
+Lovedoreal;Jasper;jasper_lovedoreal;PRM16A;VWB17B
+Ludaescher;Sonja;sonja_ludaescher;DRO15A;
+Luescher;Leandra;leandra_luescher;DRO16A;VWB18C
+Lushaj;Shkelqim;shkelqim_lushaj;PRM16C;
+Luterbacher;Fiona;fiona_luterbacher;DRO16A;
+Luethi;Kevin;kevin_luethi;AUF16B;
+Luethi;Mike;mike_luethi;PMG16A;VWB18A
+Luethi;Patrick;patrick_luethi;Ex;
+Mahmuti;Adem;adem_mahmuti;PRM16B;
+Markovic;Aleksandar;aleksandar_markovic;PKE15A;VWB17B
+Markovic;Dragan;dragan_markovic;AUF16B;
+Marrari;Loris;loris_marrari;PMG15B;
+Marrer;Luca;luca_marrer;INF15S;
+Marti;Robin;robin_marti;AUM16A;VWB18A
+Marti;Simon;simon_marti;INF15S;
+Martinez Cobeñas;Sandra;sandra_martinez;REF17A;
+Matic;Klaudia;klaudia_matic;PMG15B;
+Mebrahtom;Kahase;kahase_mebrahtom;IJBV18C;
+Meier;Celine;celine_meier;PKB15A;BM1_TE15B
+Meier;Jocelyn;jocelyn_meier;WTG16A;
+Meier;Justin;justin_meier;AUM16A;
+Meister;Manuel;manuel_meister;PKE15A;
+Merchan Solano;Jesus Gregorio;jesus_merchan;KOE16C;
+Miklin;Pascal;pascal_miklin;PMG16A;
+Milani;Cedric;cedric_milani;PRM17B;
+Milosavljevic;Boris;boris_milosavljevic;AUM16A;
+Mona;Yannick;yannick_mona;KOE16B;
+Morina;Medina;medina_morina;KOE17B;
+Moser;Aron;aron_moser;KOE16C;
+Moser;Daniel;daniel_moser;ELT15A;BM1_TE15B
+Moser;Robin;robin_moser;PRM16B;
+Muehlheim;Dominique;dominique_muehlheim;PRM16C;
+Mueller;Alina;alina_mueller;AUM15A;
+Mueller;Philip Hans;philiphans_mueller;PMG16A;
+Mueller;Timon;timon_mueller;AUM16A;
+Muenger;Michelle;michelle_muenger;DRO15A;
+Musiqi;Gentrit;gentrit_musiqi;PRM16B;
+Mustafa;Ahmed;ahmed_mustafa;BM2_TE18B;
+Mustafa;Deniz;deniz_mustafa;PMG16B;
+Mustafi;Albin;albin_mustafi;AUF16B;
+Naue;Lisa;lisa_naue;DRO15A;
+Neukomm;Sabrina Nadja;sabrinanadja_neukomm;DRO16A;
+Niederberger;Melissa;melissa_niederberger;DRO16A;
+Niemelae;Jonathan;jonathan_niemelae;INF15S;BM1_TE15B
+Nobs;Elias;elias_nobs;PRM16C;
+Nordmann;Til;til_nordmann;KOE16C;
+Nussbaumer;Larissa;larissa_nussbaumer;REF16A;
+Nyfeler;Thomas;thomas_nyfeler;AUF16A;
+Oberli;Sandro;sandro_oberli;PKE15A;VWB17C
+Obrecht;Dominic Gabriel;dominic_obrecht;PRM16C;
+Odermatt;Dave;dave_odermatt;AUM16A;
+Odermatt;Tamara;tamara_odermatt;REF16B;
+Oetterli;David;david_oetterli;Ex;
+Oliva;Yannic;yannic_oliva;BM2_TE18A;
+Oliveira;Noel;noel_oliveira;INF16A;BM1_TE16B
+Or;Furkan;furkan_or;PMG15B;
+Oschounig;Samira;samira_oschounig;WTG16A;
+Osmani;Hurie;hurie_osmani;WTG16A;
+Ostheider;Nils;nils_ostheider;BM2_TE18B;
+Padula;Noah;noah_padula;INF15S;VWB17C
+Palkhang;Tsephel;tsephel_palkhang;REF16B;
+Pauli;Melanie;melanie_pauli;BM2_TE18A;
+Paz Formoso;Ivan;ivan_pazformoso;PRM16C;
+Pearson;Michael;michael_pearson;PME16A;
+Peier;Leonie;leonie_peier;DRO16A;
+Penthai;Jirawat;jirawat_penthai;KOE17B;
+Niffenegger;Salome;salome_peter;WTG16A;
+Peterhans;Alex;alex_peterhans;AUF16B;
+Pfeiffer;Adrian German Andreas;adrian_pfeiffer;PKB16A;BM1_TE16B
+Pieber;Dario;dario_pieber;BM2_TE18B;
+Poljak;Dzenis;dzenis_poljak;INF15S;
+Probst;Nina;nina_probst;KOE16C;
+Probst;Yannick;yannick_probst;AUF16A;
+Prushi;Shukri;shukri_prushi;MPR17A;
+Pucarevic;Nikola;nikola_pucarevic;AUM16A;
+Pudic;Belma;belma_pudic;INF15S;BM1_TE15B
+Radojevic;Sladan;sladan_radojevic;PRM16A;
+Ramazani;Arian;arian_ramazani;PMG15B;
+Rambow;Mischa;mischa_rambow;AUF16B;
+Ravishangar;Nares;nares_ravishangar;PRM16C;
+Reichmuth;Jasmin;jasmin_reichmuth;WTG16A;
+Reis Lopes;Guilherme Manuel;guilherme_reis;PRM16B;
+Rennhard;Amy Anna;amyanna_rennhard;PKE15A;VWB17A
+Rexhepi;Albin;albin_rexhepi;PRM16C;
+Rhiner;Dana;dana_rhiner;REF17A;
+Riedwyl;Lorena Nadine;lorenanadine_riedwyl;DRO15A;
+Rindlisbacher;Joel;joel_rindlisbacher;PKB16A;BM1_TE16A
+Rohde;Jan;jan_rohde;AUM16A;
+Rohner;Sascha;sascha_rohner;INF15S;
+Roeoesli;Mike;mike_roeoesli;KOE16C;
+Roschi;Lukas;lukas_roschi;PRM17B;
+Roth;Luca;luca_roth;AUM16A;
+Roetheli;Christoph;christoph_roetheli;PMG16B;
+Rothermann;Leon;leon_rothermann;PME16A;
+Rubino;Gianluca;gianluca_rubino;PRM16B;VWB17C
+Ruef;Noëmi Laura;noemilaura_ruef;REF16B;
+Rustemi;Emir;emir_rustemi;PRM16C;
+Rytz;Alexandra;alexandra_rytz;REF16B;
+Sabotic;Amer;amer_sabotic;PRM16C;
+Sager;Joseph;joseph_sager;PKE15A;
+Saiti;Ferdi;ferdi_saiti;BM2_TE18A;
+Saitta;Luca;luca_saitta;PRM16A;
+Saladin;Michael;michael_saladin;ELT15A;BM1_TE15A
+Salini;Nico;nico_salini;PMG15B;
+Samoel;Maximilian;maximilian_samoel;INF15S;
+Sari;Kaan Can;kaancan_sari;PMG15A;
+Satkunam;Justina;justina_satkunam;KOE16B;
+Schaad;Yannis;yannis_schaad;PRM16B;
+Schaller;Eric Rene;ericrene_schaller;AUM16A;VWB18B
+Schaller;Miguel;miguel_schaller;INF15B;VWB17B
+Schaerer;Robin;robin_schaerer;PMG15B;
+Schenk;Raphael;raphael_schenk;PMG16A;
+Schild;David;david_schild;PKB16A;BM1_TE16B
+Schluep;Sarah;sarah_schluep;KOE16B;
+Schluep;Thierry;thierry_schluep;AUM15A;
+Schmid;Emily;emily_schmid;KOE16B;
+Schmidt;Tobias;tobias_schmidt;PMG15B;
+Schneeberger;Ronny;ronny_schneeberger;PKB15A;BM1_TE15A
+Schneider;Kevin;kevin_schneider2;PME16A;VWB18C
+Scholl;Patrick;patrick_scholl;PMG15A;VWB17B
+Schoenbaechler;Nico;nico_schoenbaechler;INF15B;
+Schoenmann;Claudio;claudio_schoenmann;KOE16A;
+Schoepfer;Anja;anja_schoepfer;Ex;
+Schuepbach;Mischa;mischa_schuepbach;KOE16B;
+Schuricht;Justin;justin_schuricht;AUM15A;
+Schurtenberger;Tim;tim_schurtenberger;INF15B;BM1_TE15A
+Schuetz;Mario;mario_schuetz;PKE15A;VWB17C
+Schwaller;Robin;robin_schwaller;INF16S;BM1_TE16B
+Schwarzentrub;Jannick;jannick_schwarzentrub;KOE16C;
+Selen;Alican;alican_selen;PRM16C;
+Semiz;Emre;emre_semiz;PMG16B;
+Shabani;Edi;edi_shabani;PRM16A;
+Shanmuganathan;Sangavi;sangavi_shanmuganathan;DRO17A;
+Shkoreti;Laurent;laurent_shkoreti;PRM16B;
+Siebrandt;Rainer;rainer_siebrandt;INF16A;BM1_TE16B
+Singeisen;Adrian;adrian_singeisen;BM2_TE18B;
+Singer;Mike;mike_singer;PMG15B;
+Sivananthan;Abisan;abisan_sivananthan;PMG16B;
+Sljivic;Dario;dario_sljivic;PMG15B;
+Sljivic;Leon;leon_sljivic;PMG15A;
+Sljivic;Oliver;oliver_sljivic;PRM16C;
+Soares;Sofia;sofia_soares;DRO16A;
+Solanella;Julian;julian_solanella;KOE16B;
+Soledade;Barbara;barbara_soledade;DRO16A;
+Spaeni;Leon;leon_spaeni;INF16A;
+Spoya;Dominique;dominique_spoya;INF15A;BM1_TE15B
+Srijanagakumar;Jalasan;jalasan_srijanagakum;PMG16B;
+Stalder;Janis;janis_stalder;AUF16A;
+Stalder;Leo;leo_stalder;INF15A;
+Stalder;Steven;steven_stalder;AUF17A;
+Steiner;Mel;mel_steiner;INF16S;BM1_TE16B
+Steiner;Nick;nick_steiner;INF16S;
+Steinlechner;Jan;jan_steinlechner;PRM17B;
+Stjepanovic;Anita;anita_stjepanovic;KOE16A;
+Stoeckli Malave;Axel Sebastian;axel_stoeckli;PME16A;VWB18A
+Straumann;Roman;roman_straumann;PMG15A;VWB17B
+Strebel;Niels;niels_strebel;PRM18B;
+Streuli;Cedric Joël;cedricjoel_streuli;AUF16A;
+Stuber;Michelle;michelle_stuber;DRO16A;VWB18C
+Studer;Aaron;aaron_studer;INF15A;VWB17B
+Studer;Benjamin;benjamin_studer;KOE16A;
+Sturzo;Marco;marco_sturzo;INF16A;
+Stutzki;David;david_stutzki;AUF16B;
+Sury;Tom;tom_sury;INF16S;
+Suter;Dominik;dominik_suter;INF16A;BM1_TE16B
+Sutter;Fabienne;fabienne_sutter;KOE16A;
+Tamsel;Tim;tim_tamsel;INF15A;BM1_TE15A
+Tasic;Kristian;kristian_tasic;AUF16B;
+Tesfai;Meron;meron_tesfai;PMG16B;
+Thavakumar;Venujan;venujan_thavakumar;PMG15B;
+Theiler;Cedric;cedric_theiler;KOE16B;
+Thi;Wai Xing;waixing_thi;PMG16B;
+Thi;Wai-Kin;waikin_thi;BM2_TE18A;
+Tonini;Elias;elias_tonini;INF15B;
+Topalovic;Filip;filip_topalovic;PMG16B;
+Tuna;Damla;damla_tuna;WTG16A;
+Turkovic;Jovan;jovan_turkovic;REF17A;
+Ucar;Taha;taha_ucar;PMG16B;
+Uebelhart;Simon;simon_uebelhart;PKE16A;
+Uebersax;Marc;marc_uebersax;AUM15A;
+Urani;Luca;luca_urani;AUF16A;
+Konrad;Natascha;natascha_konrad;INF15B;
+Urosevic;Niklas;niklas_urosevic;PKB15A;BM1_TE15A
+Usejni;Ajet;ajet_usejni;PRM16B;
+Vadivelu;Vijuran;vijuran_vadivelu;AUF17A;
+Van der Meulen;Joeme;joeme_vandermeulen;INF16S;BM1_TE16B
+van Geene;Luca;luca_vangeene;PMG15A;
+Vanniththamby;Varanan;varanan_vanniththamby;BM2_TE18A;
+Varatharajan;Thuvarahan;thuvarahan_varathara;BM2_TE18B;
+Vasanthakumar;Anushan;anushan_vasanthakumar;PRM16B;
+Veljancic;Kristina;kristina_veljancic;REF16A;
+Vidojevic;Miodrag;miodrag_vidojevic;REF16A;
+Vieira Shanmugam;Vinesh;vinesh_vieirashanmug;PKB15A;BM1_TE15B
+Vilvarajah;Birakash;birakash_vilvarajah;PMG15B;
+Vivekananthan;Navin;navin_vivekananthan;PRM16B;
+Vodopivec;Toni;toni_vodopivec;PKE17A;
+von Allmen;Sarah;sarah_vonallmen;DRO16A;
+von Arx;Michael;michael_vonarx;PKB15A;BM1_TE15B
+von Arx;Patrick;patrick_vonarx;AUM15A;
+von Arx;Silas;silas_vonarx;PRM16B;
+von Arx;Lukas;lukas_vonarx;PRM17A;
+von Ballmoos;Reto;reto_vonballmoos;PME16A;VWB18C
+von Burg;Manuel;manuel_vonburg;PKE16A;VWB18A
+von Daeniken;Corina;corina_vondaeniken;AUM15A;BM1_TE15A
+von Gunten;Melissa;melissa_vongunten;WTG16A;
+Waefler;Thomas;thomas_waefler;AUF16B;
+Wanner;Adrian;adrian_wanner;PMG15A;
+Weber;Andreas;andreas-weber;PKB15A;BM1_TE15A
+Weber;Cedric;cedric_weber;AUF16A;
+Weber;Diana;diana_weber;REF17A;
+Weber;Jannik;jannik_weber;PMG16B;
+Wegmueller;Nicole;nicole_wegmueller;AUF16A;
+Wethli;Denis;denis_wethli;AUF16B;
+Wick;Silvan;silvan_wick;PKE15A;
+Wiesmann;Daniel;daniel_wiesmann;KOE16B;
+Winistoerfer;Fabian;fabian_winistoerfer;PKB15A;BM1_TE15B
+Winistoerfer;Nina;nina_winistoerfer;DRO16A;
+Wirz;Alexander;alexander_wirz;PKB16A;BM1_TE16B
+Wirz;Sharon;sharon_wirz;DRO15A;
+Wittwer;Livia;livia_wittwer;AUF16B;VWB17C
+Wueest;Luca;luca_wueest;PMG15A;
+Wyss;Emanuel;emanuel_wyss;PMG16A;
+Wyss;Joelyn;joelyn_wyss;WTG16A;
+Wyss;Julian;julian_wyss3;PMG15A;
+Wyss;Lorenz;lorenz_wyss;AUM16A;
+Wyss;Philipp;philipp_wyss;AUF16A;
+Wyss;Sabrina;sabrina_wyss;KOE16A;
+Yigit;Gencay;gencay_yigit;PRM16B;
+Yigitcan;Kerem;kerem_yigitcan;PRM18B;
+Yoganathan;Vithurshan;viturshan_yoganathan;PRM16A;
+Zahradnik;Josef;josef_zahradnik;PME16A;
+Zanchetti;Fabio;fabio_zanchetti;KOE18A;
+Zbinden;Yannick;yannick_zbinden;ELT15A;BM1_TE15B
+Zeka;Kremtim;kremtim_zeka;PMG15A;
+Ziegler;Laurin Ernst Ruben;laurin_ziegler;KOE17B;
+Ziegler;Lukas;lukas_ziegler;INF16S;BM1_TE16A
+Ziegler;Mike;mike_ziegler;PMG15B;
+Ziegler;Yannic;yannic_ziegler;PKE15A;VWB17A
+Zivotic;Daniel;daniel_zivotic;AUM15A;
+Zumbach;Lukas;lukas_zumbach;PMG15B;
+Zumtaugwald;Joel;joel_zumtaugwald;PKE16A;
+Grimm;Filomena;filomena_grimm;VWB18C;
+Werlen;Wieland;wieland_werlen;BM1_TE17A;
+Markwalder;Leon;leon_markwalder;BM1_TE17A;
+Knoerr;Jonas;jonas_knoerr;AUF18A;
+Cayir;Cemal;cemal_cayir;NPR17A;
+Bertonazzi;Luca;luca_bertonazzi;INF17A;BM1_TE17A
+Kaempfer;Dominik;dominik_kaempfer;AUF17A;
+Ackermann;Eric Jan;eric_ackermann;AUM17A;
+Antener;Simon;simon_antener;PKE17A;
+Friedli;Michelle;michelle_friedli;DRO17A;
+Ziegler;Michael;michael_ziegler;AUF17A;
+Temmel;Jeremy;jeremy_temmel;PMG17B;
+Raess;Dimitri;dimitri_raess;INF17A;
+Ierano;Gabriele;gabriele_ierano;INF17A;
+Niederhauser;Jan;jan_niederhauser;INF17S;
+Sae-Wang;Jakkrapat;jakkrapat_sae-wang;PMG17A;
+Winterberg;Joel;joel_winterberg;PME17A;
+Vicari;Loris;loris_vicari;MPR17A;
+Moser;Ramon;ramon_moser;PRM17A;
+Koelliker;Sandro;sandro_koelliker;AUF17A;
+Eren;Furkan;furkan_eren;PME17A;
+Gust;Ramon;ramon_gust;PKE17A;
+Steinegger;Jenny;jenny_steinegger;REF16A;
+Bruschi;Natalie;natalie_bruschi;KOE17B;
+Ambuehl;Yanik;yanik_ambuehl;PME17A;
+Rueegsegger;Matthias;matthias_rueegsegger;PMG17A;
+Signer;Samuel;samuel_signer;INF17B;
+Weickhardt;Christof Tobias;christoftobias_weickhardt;INF17A;BM1_TE17A
+Roth;Danielle;danielle_roth;KOE17A;
+Saner;Simon;simon_saner;PRM17B;
+Andjelkovic;Ratko;ratko_andjelkovic;PRM17B;
+Christ;Kevin;kevin_christ;PMG17B;
+Cerdeira;Noah;noah_cerdeira;PKE17A;
+Studer;Ivan Luca;ivanluca_studer;PKE17A;
+Gerber;Alessia;alessia_gerber;DRO17A;
+Zingaro;Fabia;fabia_zingaro;KOE17B;
+Koella;Gian;gian_koella;KOE17B;
+Ceni;Jozef;jozef_ceni;PKE17A;
+Polisi;Ermal;ermal_polisi;INF17S;
+Leuenberger;Noah;noah_leuenberger;INF17A;
+Stampfli;Roman;roman_stampfli;PME17A;
+Linder;Samuel;samuel_linder;MPR17A;
+Krasniqi;Kevin;kevin_krasniqi;PRM17B;
+Lomba;Sandro;sandro_lomba;PME17A;
+Gelbhaus;David Hinko;davidhinko_gelbhaus;PMG17A;
+Herzig;Marc;marc_herzig;AUF17A;
+Lanaro;Elena;elena_lanaro;WTG17A;
+Borer;Luis;luis_borer;BM1_TE17A;
+Vezzaro;Massimo;massimo_vezzaro;SPE;
+Keusch;Nadia;nadia_keusch;REA17A;
+Mazzolini;Nico;nico_mazzolini;KOE17A;
+Fuhrer;Benj;benj_fuhrer;PMG17A;
+Ongarabalan;Anusha;anusha_ongarabalan;DRO17A;
+Holliger;Marc;marc_holliger;PKE17A;
+Glauser;Luca;luca_glauser;AUM17A;
+Jaeggi;Lukas;lukas_jaeggi2;Ex;Ex
+Braendle;Noah;noah_braendle;INF17S;
+Krebs;Lars;lars_krebs;PKE17A;
+Kasser;Manuel;manuel_kasser;PKE17A;
+Dobler;Sven;sven_dobler;KOE17A;
+Petrovic;Aleksandar;aleksandar_petrovic;PME17A;
+Schoepfer;Micha;micha_schoepfer;PME17A;
+Scire;Alessio;alessio_scire;PRM17B;
+Pulfer;Soraya;soraya_pulfer;REF17A;
+Simic;Teo;teo_simic;PMG17B;
+Henchoz;Noah;noah_henchoz;PKB17A;BM1_TE17A
+Kozlu;Ilayda;ilayda_kozlu;INF17S;
+Vuille;Joel David;joeldavid_vuille;INF17S;
+Ferati;Naim;naim_ferati;PRM17A;
+Mueller;Jonas;jonas_mueller;PKE17A;
+Kaufmann;Mike;mike_kaufmann;PKE17A;
+Mollet;Lars;lars_mollet;PRM17A;
+Rothermann;Alicia;alicia_rothermann;PME17A;
+Bader;Julja;julja_bader;KOE17A;
+Oppikofer;Andrin;andrin_oppikofer;KOE17A;
+Dubach;David Daniel;daviddaniel_dubach;INF17B;BM1_TE17A
+Hagmann;Mara;mara_hagmann;KOE17A;
+Cani;Veton;veton_cani;PME17A;
+Kantheeban;Kabilan;kabilan_kantheeban;PRM17B;
+oenal;Selim;selim_oenal;PRM17B;
+Kasanga;Daniel;daniel_kasanga;PME17A;
+Cansu;Hendrik;hendrik_cansu;PMG17B;
+Zumofen;Janina;janina_zumofen;AUM17A;
+Leimer;Florian;florian_leimer;INF17A;
+Kuecuek;Ertugrul;ertugrul_kuecuek;PRM17B;
+Serratore;Alex;alex_serratore;PME17A;
+Cascio;Pietro;pietro_cascio;PRM17A;
+Palermo;Mattia;mattia_palermo;PRM17B;
+Hirschi;Justine;justine_hirschi;KOE17B;
+Widmer;Jascha Leon;jaschaleon_widmer;INF17S;
+Qeli;Shkelqim;shkelqim_qeli;PRM17B;
+Veseli;Lavdrim;lavdrim_veseli;PRM17B;
+Bisrat;Tuem;tuem_bisrat;IJBV18A;
+Brhane;Robel;robel_brhane;IJBV18B;
+Girmay;Temesgen;temesgen_girmay;IJBV18C;
+Goitom;Temesgen;temesgen_goitom;IJBV18B;
+Habtemariam;Amaniel;amaniel_habtemariam;IJBV18C;
+Grossmann;Ivana;ivana_grossmann;VWB18A;
+Michel;Mirjam;mirjam_michel;REF17A;
+Furrer;Joel;joel_furrer;PMG17B;
+Reichhart;Christopher;christopher_reichhart;AUF17A;
+Zbinden;Silas;silas_zbinden;REF17A;
+Gfeller;Jessica;jessica_gfeller;DRO17A;
+Brudermann;Thomas;thomas_brudermann;AUM17A;
+Wernle;Eliecer;eliecer_wernle;AUM17A;
+Saegesser;Fabrice;fabrice_saegesser;AUF17A;
+Flury;Lars;lars_flury;INF17A;
+Thamilselvan;Kirusaath;kirusaath_thamilselvan;PRM17B;
+Boukhris;Yakob;yakob_boukhris;PMG17B;
+Walter;Michael;michael_walter;AUM17A;
+Baumgartner;Dominik;dominik_baumgartner;PRM17B;
+Selimi;Albion;albion_selimi;PME17A;
+Schenk;Remo;remo_schenk;INF17S;
+Albakr;Lamis;lamis_albakr;INVOL18B;
+Agarwal;Rehan;rehan_agarwal;INF17A;BM1_TE17A
+Caputo;Giulio;giulio_caputo;AUM17A;
+Ramos;Rute Isabel;rute_ramos;REA18A;
+von Rohr;Fabio;fabio_vonrohr;NPR16A;
+Schumacher;Lukas;lukas_schumacher;PME17A;
+Ninic;Tomi;tomi_ninic;PMG17B;
+Haxhimehmeti;Laurent;laurent_haxhimehmeti;PME17A;
+Pasil Trimosan Manohar;Devonsan;devonsan_manohar;PRM17A;
+Nica;Gian Luca;gianluca_nica;INF17S;
+Amorosi;Laura;laura_amorosi;VWB17A;
+Anton;Selina;selina_anton;REF18A;
+Baerlocher;Laura;laura_baerlocher;VWB17B;
+Di Pietro;Sandro;sandro_dipietro;VWB17B;
+Fedeli;Ramona;ramona_fedeli;VWB17B;
+Furfaro;Cristina;cristina_furfaro;VWB18B;
+Lehmann;Luisa;luisa_lehmann;VWB17A;
+Maurer;Andrea;andrea_maurer;VWB17B;
+Ochsenbein;Chiara;chiara_ochsenbein;VWB17C;
+Ryf;Marina;marina_ryf;VWB17A;
+Schlaefli;Martina;martina_schlaefli;VWB17A;
+Schraemmli;Denise;denise_schraemmli;VWB17C;
+Stampfli;Romy;romy_stampfli;VWB17C;
+Stankovic;Laura;laura_stankovic;VWB17B;
+Zanin;Noemi;noemi_zanin;VWB17A;
+Demos;Beteal;beteal_demos;REA18A;
+Staehli;Nina Elena;nina_staehli;REF18A;
+Sudic;Petar;petar_sudic;AUF18B;
+Tesfamichael;Aman;aman_tesfamichael;IJBV18B;
+Dueguenyurdu;Onur;onur_dueguenyurdu;PME17A;
+Haxhimehmeti;Argjent;argjent_haxhimehti;PMG17B;
+Baumann;Fabienne;fabienne_baumann;DRO17A;
+Kohler;Jonathan;jonathan_kohler;AUF17A;
+Biedermann;Nils;nils_biedermann;PMG17B;
+Laudanovic;Marko;marko_laudanovic;PRM17A;
+Henzi;Fabian;fabian_henzi;AUM17A;
+Lysser;Roman;roman_lysser;INF17A;
+Barrer;Jan;jan_barrer;PMG17B;
+Murugalingam;Varunan;varunan_murugalingam;MPR17A;
+Lischer;Larina;larina_lischer;VWB18C;
+Carulli;Sara;sara_carulli;VWB18A;
+Kalotay;Virag;virag_kalotay;VWB18A;
+Wady;Nour;nour_wady;VWB18A;
+Stauffer;Alina;alina_stauffer;VWB18B;
+Felber;Janina;janina_felber;VWB18B;
+Zwygart;Yasmin;yasmin_zwygart;VWB18C;
+Kissling;Rahel;rahel_kissling;VWB18A;
+Kaqinari;Patrik;patrik_kaqinari;PRM16B;
+Yoerek;Alena;alena_yoerek;INF17S;
+Aliu;Duan;duan_aliu;PRM17B;
+Klafsky;Luca;luca_klafsky;AUM17A;
+Mariotto;Manuel;manuel_mariotto;REF18A;
+Falone;Alessia;alessia_falone;SPE;
+Buser;Fiona;fiona_buser;SPE;
+Bruederli;Lucas;lucas_bruederli;SPE;
+Zuercher;Gioia;gioia_zuercher;SPE;
+Bordi;Noemi;noemi_bordi;SPE;
+Ritter;Lena;lena_ritter;SPE;
+Berber;Aleyna;aleyna_berber;SPE;
+Roethlisberger;Nina Leonie;nina_roethlisberger;SPE;
+Sabedini;Albiona;albiona_sabedini;SPE;
+Pierandrei;Federica;federica_pierandrei;SPE;
+Dinh;Trong Hieu Jimmy;tronghieujimmy_dinh;SPE;
+Mavely;Melvin;melvin_mavely;SPE;
+Dagci;Beyzanur;beyzanur_dagci;SPE;
+Meriç;Selen;selen_meric;SPE;
+Yigit;Serhat;serhat_yigit;PMG17B;
+Olomani;Elfat;elfat_olomani;PRM17A;
+Zaid;Evenezer;evenezer_zaid;PKB17A;BM1_TE17A
+Rasalingam;Denisan;denisan_rasalingam;REF17A;
+Idrizi;Edona;edona_idrizi;SPE;
+Winzer;Jasmin;jasmin_winzer;AUM17A;
+Baechler;Kilian;kilian_baechler;AUM17A;
+Saciri;Fitim;fitim_saciri;AUF17A;VWB18B
+Suber;Nino Torsten;ninotorsten_suber;PRM17B;
+Neuenschwander;Soraya;soraya_neuenschwander;REF17A;
+Jegatheswaran;Abishan;abishan_jegatheswaran;PMG17A;
+Alviano;Giulia;giulia_alviano;DRO17A;
+Flueckiger;Henrik;henrik_flueckiger;KOE17A;
+Lisser;Markus;markus_lisser;AUM17A;
+Siegenthaler;Alina;alina_siegenthaler;SPE;
+Basar;Melisa;melisa_basar;SPE;
+Stauber;Simon;simon_stauber;INF18B;BM1_TE18B
+Blaser;Bjoern;bjoern_blaser;AUF17A;
+Gamba;Raphael Andrea;raphaelandrea_gamba;INF17S;
+Kabashi;Albrim;albrim_kabashi;PRM17B;
+Wyss;Gian Andri;gianandri_wyss;PMG17A;
+Schwenter;Simon;simon_schwenter;PMG17A;
+Haenggi;Joël Nicolas;joel_haenggi;PRM17A;
+Duraku;Albin;albin_duraku;PMG17A;
+Sadiku;Endrit;endrit_sadiku;PRM17A;
+Oesch;Nadine;nadine_oesch;KOE17B;
+Meyer;Dario;dario_meyer;AUF17A;
+Pochelon;Leon;leon_pochelon;PMG17A;
+Weber;Samira;samira_weber;AUF17A;
+Berger;Luca;luca_berger;AUA17A;
+Rueegg;Sabrina;sabrina_rueegg;WTG16A;
+Duncan;Alina;alina_duncan;WTG17A;
+Kopp;Luana;luana_kopp;SPE;
+Joss;Judith;judith_joss;REF16A;
+Mosimann;Mike;mike_mosimann;AUF16B;
+Leuenberger;Mirjam;mirjam_leuenberger;VWB17A;
+Fluekiger;Emilie;emilie_fluekiger;VWB17A;
+Sulejmani;Burim;burim_sulejmani;BM2_TE18A;
+Thuering;Manuel;manuel_thuering;BM2_TE18B;
+Mattiello;Gianni;gianni_mattiello;KOE17A;
+Qorrolli;Bleon;bleon_qorrolli;PRM17A;
+Shatrolli;Edmond;edmond_shatrolli;MPR17A;
+Mitric;Stefan;stefan_mitric;PRM17A;
+Anga;Khandro;khandro_anga;REA17A;
+Eng;Sven;sven_eng;PRM17A;
+Dornbierer;Patrick;patrick_dornbierer;PME17A;
+Jaeggi;Tanja;tanja_jaeggi;DRO17A;
+Schmid;Noel;noel_schmid;VWB18C;
+Demirkaya;Severyus;severyus_demirkaya;Ex;
+Shah;Shayan Navaid;shayannavaid_shah;AUA17A;
+Dietlin;Carol;carol_dietlin;KOE17B;
+Ferati;Bekim;bekim_ferati;NPR16A;
+Budai;Mark;mark_budai;NPR16A;
+Blum;Michelle;michelle_blum;PMG17A;
+Nguyen;Van Phuc;vanphuc_nguyen;PRM17A;
+Guldimann;Alexandra;alexandra_guldimann;REF17A;
+Alushaj;Linda;linda_alushaj;REF17A;VWB18C
+Sritharan;Apischanth;apischanth_sritharan;PRM17A;
+Rasu;Aagas;aagas_rasu;PMG17B;
+David;Chantal;chantal_david;KOE17A;
+Grimm;Dominic;dominic_grimm;PKE17A;
+Lazarevic;Milena;milena_lazarevic;PRM17A;
+Kurt;Mikail;mikail_kurt;PRM17B;
+Rexhepi;Fitim;fitim_rexhepi;PRM17A;
+Alimusaj;Albin;albin_alimusaj;PME17A;
+Solmaz;Baran;baran_solmaz;PRM17A;
+Heusser;Yannis;yannis_heusser;PME17A;
+Polat;Yunus;yunus_polat;PRM17A;
+Santos do Aido;Daniel;daniel_santosdoaido;PME17A;
+Bruderer;Felix;felix_bruderer;BM2_TE18A;
+Ndawele;Kelly;kelly_ndawele;BM2_TE18B;
+Rippstein;Simon;simon_rippstein;AUF17A;
+Krasniqi;Erjon;erjon_krasniqi;PRM17A;
+Buechel;Max;max_buechel;PME17A;
+Hirschi;Gabriel;gabriel_hirschi;PME17A;
+Cankalp;Emanuel Jona;emanueljona_cankalp;PRM17A;
+Kadrija;Bashkim;bashkim_kadrija;AUF18B;
+Bozat;Botan;botan_bozat;PRM17A;
+Sigrist;Severin Timon;severintimon_sigrist;PRM16A;
+Carazzai;Joël;joel_carazzai;KOE16C;
+Thipprasoet;Montree;montree_thipprasoet;PRM17B;
+Fejzuli;Asan;asan_fejzuli;PRM17B;
+Rebollo;Gabriele;gabriele_rebollo;AUA17A;
+Fejzuli;Kaltrin;kaltrin_fejzuli;PKE17A;
+Faraci;Adriana;adriana_faraci;INF17A;
+Navaratnam;Saseetharan;saseetharan_navaratnam;KOE17A;
+Luethi;Jannik;jannik_luethi;PME17A;
+Yussef;Mouhamed;mouhamed_yussef;AUA17A;
+Elshani;Lorik;lorik_elshani;AUM17A;BM1_TE17A
+Nussbaumer;Jasmine;jasmine_nussbaumer;VWB18A;
+Schuerch;Alexander;alexander_schuerch;PKE17A;
+Savic;Nikola;nikola_savic;PMG17A;
+Naef;Elia;elia_naef;VWB18C;
+Schnabel;Daniel;daniel_schnabel;KOE17B;
+von Rohr;Mirja;mirja_vonrohr;DRO17A;
+Wyss;Kim;kim_wyss;KUA17A;
+Felber;Sandro;sandro_felber;AUM16A;VWB18C
+Breitschaedel;Janina;janina_breitschaedel;Ex;
+Meyer;Michelle;michelle_meyer;DRO17A;
+von Niederhaeusern;Julian;julian_vonniederhaeusern;PME17A;
+Safari;Hammas;hammas_safari;AUA17A;
+Ulayyan;Rasslan Jonas;rasslanjonas_ulayyan;PRM17B;
+Gass;Dominic;dominic_gass;PRM17B;
+Durrer;Jonas;jonas_durrer;KOE17A;
+Kobler;Lara;lara_kobler;DRO18A;
+Rado;Mike;mike_rado;NPR17A;
+Zadran;Nasratullah;nasratullah_zadran;PRM18B;
+Tang;Simon;simon_tang;KOE17B;
+Sen;Deniz;deniz_sen;REF17A;
+Balbontin;Nicole;nicole_balbontin;REA17A;
+Yogeswaran;Gobitha;gobitha_yogeswaran;INF17S;
+Stranges;Stefano;stefano_stranges;AUA17A;
+Eberhard;Moritz;moritz_eberhard;PMG17A;
+Marti;Janis;janis_marti;PKE17A;
+Ukaj;Mihael;mihael_ukaj;PMG17A;
+Poopalan;Pratheepan;pratheepan_poopalan;PKB17A;BM1_TE17A
+Scheibler;Alexandra;alexandra_scheibler;AUA17A;
+Haefeli;Sophia;sophia_haefeli;VWB18B;
+Schmitt;Frank;frank_schmitt;VWB17C;
+Omerovic;Adem;adem_omerovic;RPR17A;
+Galgano;Leonardo;leonardo_galgano;NPR16A;
+Schindelholz;Nicola;nicola_schindelholz;INF17S;
+Balmer;Rebekka;rebekka_balmer;WTG17A;
+Bufalino;Giuliano;giuliano_bufalino;KOE17A;
+Wernli;Benita;benita_wernli;KOE16C;
+Sen;Metin;metin_sen;NPR16A;
+Baltisberger;Janik;janik_baltisberger;AUM17A;
+Maegli;Christophe;christophe_maegli;PKE17A;
+Kalbermatter;Noël;noel_kalbermatter;AUF17A;
+Peruzzini;Julia;julia_peruzzini;DBA17A;
+Galarosa;Christian;christian_galarosa;REA17A;
+Cioanca;Ana Maria;anamaria_cioanca;REF17A;
+Schray;Janik;janik_schray;Ex;
+Kaiser;Cyrill;cyrill_kaiser;NPR16A;
+Pejic;Oliver;oliver_pejic;PKE17A;
+Dumitru;Alexandru Marian;alexandrumarian_dumitru;REF17A;
+Stanojevic;Danijel;danijel_stanojevic;AUA17A;
+Mehari;Mekonen;mekonen_mehari;IJBV18B;
+Andebrhan;Semira;semira_andebrhan;IJBV18A;
+Mohamud Hared;Dahir;dahir_mohamudhared;IJBV18B;
+Habtom;Okbit;okbit_habtom;IJBV18C;
+Tsegay;Kesete;kesete_tsegay;IJO18B;
+Fitsum;Sirak;sirak_fitsum;IJBV18C;
+Rahmani;Sakhi;sakhi_rahmani;IJJF18A;
+Welday;Tesfaghiorgis;tesfaghiorgis_welday;IJBV18A;
+Tsegay;Nahom;nahom_tsegay;IJBV18B;
+Ahmed;Abdirahman;abdirahman_ahmed;IJBV18A;
+Heydari;Shekib;shekib_heydari;IJBV18A;
+Fessehaye;Million;million_fessehaye;IJBV18C;
+Mahendran;Mayooran;mayooran_mahendran;IJO18B;
+Zangger;Nicole;nicole_zangger;NPR16A;
+Tirez;Sebastian;sebastian_tirez;REF17A;
+Steffen;Patricia;patricia_steffen;PRM17A;
+Jermann;Sabine;sabine_jermann;KOE17B;
+Nyirakanyana;Huli Parfaite;huliparfaite_nyirakanyana;KUA17A;
+Dalipi;Muhaser;muhaser_dalipi;IJBV18C;
+Kaba;Oumar;oumar_kaba;IJBV18B;
+Karalar;Cemal;cemal_karalar;IJO18B;
+Molino;Sciamyra;sciamyra_molino;IJBV18A;
+Paramanathan;Pirathap;pirathap_paramanathan;IJBV18A;
+Peña Rincon;Alexander;alexander_penarincon;IJBV18B;
+Yakob;Muzit;muzit_yakob;KUA17A;
+Mazziotti;Dario;dario_mazziotti;MPR18A;
+Ritter;Sascha;sascha_ritter;BM2_TE18A;
+van den Heuvel;Jan;jan_vandenheuvel;INF18A;
+Dogan;Kaan Salih;kaansalih_dogan;PRM17A;
+Mueller;Nicolas Sven;nicolassven_mueller;PKB17A;BM1_TE17A
+Kindler;Timon;timon_kindler;INF17A;
+Steiner;Fabian;fabian_steiner;KOE17A;
+Shan;Vaamanan;vaamanan_shan;SPE;
+Pascual;Alexander Nicolas;alexandernicolas_pascual;RPR17A;
+Estermann;Till;till_estermann;BM2_TE18A;
+Ziltener;Lino;lino_ziltener;BM2_TE18B;
+Mathys;Amanda;amanda_mathys;VWB17C;
+Kock;Philip;philip_kock;REF17A;
+De Pascali;Damiano;damiano_depascali;AUF17A;
+Attanasio;Giulia;giulia_attanasio;REF17A;VWB18C
+Xhema;Flamur;flamur_xhema;AUF17A;
+Jakupovic;Sara;sara_jakupovic;VWB17B;
+Schaefer;Josefine;josefine_schaefer;VWB17A;
+Idrizi;Edita;edita_idrizi;VWB17B;
+Polat;Ruemeysa;ruemeysa_polat;WTG17A;
+Knezevic;Milenko;milenko_knezevic;KUA17A;
+Willi;Adrian;adrian_willi;VWB17C;
+Grogg;Roman Alexander;roman_grogg;MPR18A;
+Schlittler;Maxime;maxime_schlittler;KUA18A;
+Luethy;Alan;alan_luethy;PMG17A;
+Loerner;Nathan;nathan_loerner;Ex;
+Zera;Abel;abel_zera;RPR17A;
+Gegaj;Domenik;domenik_gegaj;AUA17A;
+Berisha;Blerti;blerti_berisha;INF17B;BM1_TE17A
+Russo;Tony;tony_russo;PME16A;VWB18B
+Parlak;Tugrul;tugrul_parlak;AUF17A;
+Abdulsammad;Mohammad;mohammad_abdulsammad;IJBV18C;
+Winistoerfer;Niklas;niklas_winistoerfer;VWB17C;
+Lebus-Ritter;John Loic;johnloic_lebus-ritter;Ex;
+Paci;Alessio;alessio_paci;RPR17A;
+Ramachandran;Anurathan;anurathan_ramachandran;MPR17A;
+Huber;Mehdi;mehdi_huber;MPR17A;
+Jabarin;Safaa;safaa_jabarin;INVOL18B;
+Kahsay;Merhawi;merhawi_kahsay;INVOL18A;
+Yeabyo;Kaleb;yeabyo_kaleb;INVOL18B;
+Walter;Anastasia;anastasia_walter;KOE18B;
+Dawlatzada;Muslim;muslim_dawlatzada;INVOL18A;
+Markovic;Aleksa;aleksa_markovic;KOE17A;
+Casari;Svenja;svenja_casari;KUA17A;
+Gelsi;Massimo;massimo_gelsi;NPR16A;
+Kosanovic;Simona;simona_kosanovic;KOE16C;
+Filliger;Dominik;dominik_filliger;INF17A;
+von Felten;Remo;remo_vonfelten;AUM17A;
+Wagner;Jasmin;jasmin_wagner;PME17A;
+Eker;Baran;baran_eker;AUF17A;
+Tesfaslassie;Semhar;semhar_tesfaslassie;KUA18A;
+Solomon;Sham;sham_solomon;IJBV18B;
+Shabanaj;Labinot;labinot_shabanaj;NPR16A;
+Raimi;Burim;burim_raimi;NPR16A;
+Bastug;Florian;florian_bastug;AUA17A;
+Diallo;Mamadou Oury;mamadououry_diallo;KUA17A;
+El Koudsi;Yasser;yasser_elkoudsi;PME17A;
+Kuenzli;Fabienne;fabienne_kuenzli;KOE17B;
+Friedli;Bodo;bodo_friedli;PME17A;
+Vogler;Melanie;melanie_vogler;DRO17A;
+Krasae;Ratsawadee;ratsawadee_krasae;REF17A;
+Friedli;Timo;timo_friedli;PKB16A;
+Ramseier;Alischa;alischa_ramseier;REF18A;
+Ruffinatto;Romina;romina_ruffinatto;REA17A;
+Vogel;Ronald Ivan;ronaldivan_vogel;KOE17B;
+Petkovic;Nikola;nikola_petkovic;KOE17A;
+Soenmez;Goekhan;goekhan_soenmez;RPR17A;
+Wyss;Carmen Alessia;carmenalessia_wyss;REF17A;
+Zekiri;Deniz;deniz_zekiri;REF17A;
+Forugh;Jahed;jahed_forugh;REF17A;
+Gholami;Zaman;zaman_gholami;IJBV18C;
+Koller;Noëmi Anaïs;noemi_koller;SPE;
+Ismaili;Kushtrim;kushtrim_ismaili;REA17A;
+Bozinovski;Arianna;arianna_bozinovski;REF18A;
+Meister;Thomas;thomas_meister;KOE18B;
+Rahimi;Mohammad Hosein;mohammad_rahimi;PMG18C;
+Loettgen;Fabio;fabio_loettgen;KOE17A;
+Portenier;Jan;jan_portenier;AUA17A;
+Ruettimann;Dean;dean_ruettimann;KOE16A;
+Mauramati;Gianfranco;gianfranco_muramati;REA17A;
+Haefelin;Fabio;fabio_haefelin;KOE18B;
+Camuendo Urcuango;Jose Miguel;josemiguel_camuendourcuango;KOE17B;
+Kaeser;Noah;noah_kaeser;AUF18A;
+Kohler;Michelle;michelle_kohler;PKB18A;BM1_TE18B
+Luescher;Florian;florian_luescher2;DRO18A;
+Fankhauser;Eliane;eliane_fankhauser;KOE18A;
+Suter;Lea;lea_suter2;KOE18B;
+Stuedeli;Marco;marco_stuedeli;PRM18B;
+Hetemi;Faredin;faredin_hetemi;PMG18B;
+Geser;Louis;louis_geser;KOE18A;
+Eng;Lukas;lukas_eng;PMG18C;
+Marugg;Joël;joel_marugg;PMG18A;
+Erhard;Sven;sven_erhard;PMG18C;
+Flury;Noah;noah_flury2;AUF18A;
+Nana;Luca;luca_nana;INF18B;BM1_TE18A
+Burkolter;Silja Anna;siljaanna_burkolter;BM1_TE18A;
+Amiet;Livia;livia_amiet;BM1_TE18A;
+Hegelbach;Yan Nicolas;yannicolas_hegelbach;BM1_TE18A;
+Martinez;Jose Daniel;josedaniel_martinez;BM1_TE18B;
+Kessi;Sean Patrice;seanpatrice_kessi;INF18A;
+Probst;Amelie;amelie_probst;DRO18A;
+von Arx;Kyra;kyra_vonarx;KOE17A;
+Sutter;Fabio;fabio_sutter;KOE18A;
+Parpan;Gian;gian_parpan;PRM18C;
+Jenni;Ewen;ewen_jenni;PRM18A;
+Styner;Julian;julian_styner;PMG18C;
+Gunzinger;Aurelio;aurelio_gunzinger;INF18B;
+Lehmann;Sebastian;sebastian_lehmann;KOE18A;
+D'Onofrio;Ennio;ennio_donofrio;PRM18B;
+Mouhim;Youssef;youssef_mouhim;PRM18B;
+Pereira Alves;Dominik;dominik_pereiraalves;AUF18A;
+Niederhaeuser;Michel;michel_niederhaeuser;PKE18A;
+Staufer;Silas;silas_staufer;PKE18A;
+Boegli;Julian Leonardo;julianleonardo_boegli;PMG18B;
+Fux;Gianni Renato;giannirenato_fux;PMG18B;
+Allemann;Marco;marco_allemann2;KOE18A;
+Ghebrehiwet;Biniam;biniam_ghebrehiwet;INF18A;
+Nazzaro;Luca Alessandro;lucaalessandro_nazzaro;AUM18A;
+Brandao;Bruno;bruno_brandao;AUF18A;
+Wuersten;Noemi;noemi_wuersten;DRO18A;
+Jossi;Jana;jana_jossi;KOE18A;
+Krasniqi;Alron;alron_krasniqi;AUF18A;
+Remensberger;Dominic;dominic_remensberger;BM1_TE18B;
+Studer;Selina;selina_studer3;KUA18A;
+Huerlimann;Alex;alex_huerlimann;PMG18C;
+Wolf;Nikita;nikita_wolf;PMG18C;
+Kastrati;Mentor;mentor_kastrati;PMG18C;
+Kirupakaran;Thanan;thanan_kirupakaran;PMG18C;
+Klauenboesch;Celina;celina_klauenboesch;DRO18A;
+Aloisi;Selina;selina_aloisi;KOE18B;
+Arifi;Rilind;rilind_arifi;PRM18B;
+Hasani;Benet;benet_hasani;PRM18B;
+Knoerr;Lars;lars_knoerr;PRM18B;
+Beciri;Muhamed;muhamed_beciri;PMG18B;
+Rexhepi;Kushtrim;kushtrim_rexhepi;PMG18A;
+Jakaj;Valentin;valentin_jakaj;PRM18A;
+Matosevic;Patrick;patrik_matosevic;PMG18A;
+Iban Torrijos;Daniel;daniel_ibantorrijos;MPR18A;
+Sorsche;Manuel;manuel_sorsche;KOE18A;
+Erne;Suleika Cheyenne;suleikacheyenne_erne;INF18B;BM1_TE18B
+Scheuber;Maximilian;maximilian_scheuber;INF18B;BM1_TE18B
+Pintarelli;Emanuele;emanuele_pintarelli;INF18A;
+Simic;Michael;michael_simic;INF18A;BM1_TE18A
+Meier;Oliver;oliver_meier;AUF18A;
+Ameti;Fabian;fabian_ameti;PRM18B;
+Spycher;Nico;nico_spycher;AUM18A;
+Stankovic;Aleksandar;aleksandar_stankovic;PMG18B;
+Del Frate;Elia;elia_delfrate;PKE18A;
+Mueller;Benjamin;benjamin_mueller4;REF18A;
+Jelaca;Stefan;stefan_jelaca;PKE18A;
+Laederach;Chantal;chantal_laederach;WTG18A;
+Walser;Andrin Simon;andrinsimon_walser;INF18A;
+Jedrinovic;Manuel;manuel_jedrinovic;PRM18C;
+Baerel;Linard;linard_baerel;PMG18A;
+Aebi;Tim;tim_aebi2;PMG18A;
+Selvabalan;Jaleshan;jaleshan_selvabalan;PMG18A;
+Spaeni;Maurice;maurice_spaeni;KOE18A;
+Knuchel;Anna;anna_knuchel2;REF18A;
+Kunz;Annamaria;annamaria_kunz;KOE17B;
+Schmeisser;Sara;sara_schmeisser;PKE18A;
+Mueller;Joel;joel_mueller2;INF18A;BM1_TE18A
+Berni;Simon;simon_berni;INF18A;BM1_TE18A
+Achermann;David;david_achermann;AUM18A;
+Buettiker;Cedric;cedric_buettiker;PKE18A;
+Schmuki;Fabio;fabio_schmuki;AUF18A;
+Dauti;Zamir;zamir_dauti;PKB18A;BM1_TE18A
+Dakaj;Altin;altin_dakaj;PRM18B;
+Simbeteanu;Ionut-Mirel;ionut-mirel_simbeteanu;PRM18C;
+Tabet;Cristian;cristian_tabet;MPR18A;
+Hoseyni;Zahra;zahra_hoseyni;KOE18B;
+Aiello;Simone;simone_aiello;AUF18A;
+Zullufi;Enrika;enrika_zullufi;DRO18A;
+Pervorfi;Domenik;domenik_pervorfi;PRM18B;
+Million;Dilet;dilet_million;PMG18B;
+Ramadani;Lindit;lindit_ramadani;PRM18A;
+Rufati;Urannik;urannik_rufati;PRM18A;
+Rudischhauser;Marc Andri;marc_rudischhauser;BM1_TE18B;
+Abdi;Abubakar;abubakar_abdi;IJJF18A;
+Afewerki;Samiel;samiel_afewerki;IJJF18A;
+Andeberhan;Bahram;bahram_andeberhan;IJJF18A;
+Flury;Belinda;belinda_flury;BM2_TE18B;
+Guiborat;Joël;joel_guiborat;BM2_TE18B;
+Bamba;Zakaria;zakaria_bamba;IJJF18A;
+Efrem;Filimon;filimon_efrem;IJJF18A;
+Fekre;Flimon;filimon_fekre;IJJF18A;
+Habibi;Abdullah;abdullah_habibi;IJJF18A;
+Hamed;Babaker;babaker_hamed;IJJF18A;
+Jusofi;Liaqat Ali;liaqatali_jusofi;IJJF18A;
+Mahdi Cise;Mustafe;mustafe_mahdicise;IJJF18A;
+Mohamed;Abdulfatah;abdulfatah_mohamed;IJJF18A;
+Mohammed;Khalid;khalid_mohammed;IJJF18A;
+Nattouf;Ahmad Shehada;ahmad_nattouf;IJJF18A;
+Tesfay;Robel;robel_tesfay;IJJF18A;
+Rothen;Erja Sara;erjasara_rothen;INF18B;BM1_TE18B
+Scuric;Augustin;augustin_scuric;PKE18A;
+Sarbach;Andrin;andrin_sarbach;INF18A;BM1_TE18A
+Orlandi;Jonathan;jonathan_orlandi;KUA18B;
+Grossenbacher;Seline;seline_grossenbacher;KOE18B;
+Sandmeier;Mike;mike_sandmeier;AUA18A;
+Christ;Carina;carina_christ;KOE18A;
+Cannizzo;Francesco;francesco_cannizzo;INF18B;
+Musliev;Lavdrim;lavdrim_musliev;PRM18B;
+Cenik;Hakan;hakan_cenik;PRM18B;
+Krasniqi;Albin;albin_krasniqi;PRM18B;
+Aslani;Edon;edon_aslani;PMG18B;
+Wespi;Ben;ben_wespi;INF18B;BM1_TE18B
+Studer;Tobias;tobias_studer3;AUA18A;
+van Raaijen;Lena Santina Elizabeth;lenasantinaelizabeth_vanraaijen;KUA18A;
+Howald;Seline;seline_howald;BM1_TE18A;
+Rufer;David Gideon;davidgideon_rufer;PRM18B;
+Jost;Jan Samuel;jansamuel_jost;KOE18B;
+Nyffenegger;Stephanie;stephanie_nyffenegger;KUA18A;
+Krienbuehl;Sophie;sophie_krienbuehl;BM1_TE18A;
+Strehler;Ana Victoria;anavictoria_strehler;KOE18B;
+Stebler;Saskia;saskia_stebler;KOE18A;
+Coelho da Mota;Tatjana;tatjana_coelhodamota;REF18A;
+Goering;Yannis;yannis_goering;KOE18B;
+Erni;Michelle;michelle_erni;DRO18A;
+Yakob;Degol;degol_yakob;PRM18A;
+Cosic;Dejan;dejan_cosic;PMG18B;
+Dawes;Lea Jessica;leajessica_dawes;DRO18A;
+Mollet;Raphael;raphael_mollet;PMG18A;
+Kofmel;Linus;linus_kofmel;PKB18A;BM1_TE18B
+Richichi;Elia;elia_richichi;PRM18A;
+Allemann;Noel;noel_allemann;PRM18A;
+Haefliger;Manuela;manuela_haefliger;REF18A;
+Soezuegen;Salman;salman_soezuegen;PRM18B;
+Arnold;Rahel;rahel_arnold;DRO18A;
+Willi;Cony;cony_willi;BM2_TE18B;
+Schwaller;Cyrill;cyrill_schwaller;BM2_TE18A;
+Steiner;Kevin;kevin_steiner3;KOE18B;
+Lado;David;david_lado;PMG18A;
+Krieg;Lukas;lukas_krieg;KOE18B;
+Weber;Kevin;kevin_weber2;AUM18A;
+Burgo;Raffaele;raffaele_burgo;PRM18A;
+Jafari;Ramin;ramin_jafari;PMG18B;
+Azizi;Alessia;alessia_azizi;KOE18A;
+Thiviathasan;Thivijanga;thivijanga_thiviathasan;INF18B;
+Rindlisbacher;Nils;nils_rindlisbacher;INF18A;
+Rostás;Szilvia;szilvia_rostas;KOE18B;
+Er;Rohat;rohat_er;PRM18B;
+Kocyigit;Dide;dide_kocyigit;KOE18A;
+Seiler;Julian;julian_seiler;AUM18A;
+Haeusler;Rahat;rahat_haeusler;PKB18A;BM1_TE18A
+Christen;Lorenz Xeno;lorenz_christen;INF18B;
+Zuercher;Jan;jan_zuercher;BM2_TE18B;
+Kalt;Anna;anna_kalt;WTG18A;
+Stich;Vanessa;vanessa_stich;KOE16A;
+Vescovi;Roman;roman_vescovi;AUF18A;
+Nyffenegger;Mischa;mischa_nyffenegger;PRM18B;
+Bader;Fabian;fabian_bader3;BM1_TE18B;
+Yamaç;Erva;erva_yamac;PKB18A;BM1_TE18B
+Mariotto;Max;max_mariotto;PKB18A;BM1_TE18A
+Schoch;Noah;noah_schoch;BM1_TE18B;
+To;Van Tom Thong;vantom_to;INF18A;BM1_TE18B
+Oeggerli;Lars;lars_oeggerli;BM1_TE18A;
+Kasanga;Marcel;marcel_kasanga;PMG18A;
+Fuhrer;Mara;mara_fuhrer;KOE17B;
+Kunz;Janine;janine_kunz2;DRO18A;
+Rueegg;Leonie;leonie_rueegg;DRO18A;
+Jeyakumar;Sabhitha;sabhitha_jeyakumar;DRO18A;
+Dreher;Till;till_dreher;PMG18A;
+Zairi;Jetmir;jetmir_zairi;AUF18A;
+Flueeli;Delphine;delphine_flueeli;REF18A;
+Vasiljevic;Nemanja;nemanja_vasiljevic;PRM18C;
+Zahradnik;Simon;simon_zahradnik;PRM18C;
+Bajrami;Nuredin;nuredin_bajrami;PRM18C;
+Kaiser;Bastian;bastian_kaiser;KOE18B;
+Froehlicher;Lukas;lukas_froehlicher2;KOE17B;
+Sakal;Efe Can;efecan_sakal;PRM18B;
+Eberhard;Jana;jana_eberhard;VWB18A;
+Scheidegger;Gloria;gloria_scheidegger;VWB18B;
+Baltisberger;Aris;aris_baltisberger;BM1_TE18B;
+Aeschlimann;Mischa Janick;mischa_aeschlimann;INF18A;
+Steiner;Cedric;cedric_steiner;PKE18A;
+Kahraman;Hakki;hakki_kahraman;KUA18A;
+Correia Lopes;Dani;dani_correialopes;PRM18C;
+Jenzer;Diana;diana_jenzer;AUF18A;
+Buettler;Andre;andre_buettler;AUA18A;
+Kaddatz;Tobias;tobias_kaddatz;PMG18C;
+Rraci;Kaltrin;kaltrin_rraci;PRM18A;
+Vogt;Simon;simon_vogt;PMG18A;
+Jordi;Cedric;cedric_jordi;VWB18C;
+Naef;Clarina;clarina_naef;WTG18A;
+uenal;Deniz;deniz_uenal;PRM18C;
+Rindlisbacher;Nick Noah;nicknoah_rindlisbacher;INF18B;BM1_TE18A
+Palmieri;Luca;luca_palmieri;KOE18A;
+Hasanow;Janis;janis_hasanow;AUF18A;
+Jost;Dominic;dominic_jost;AUF18B;
+Studer;Sascha;sascha_studer2;PRM18C;
+Mirkovic;Nemanja;nemanja_mirkovic;INF18B;
+Rytz;Marco;marco_rytz;AUF18B;
+Chmielnicki;Kamil;kamil_chmielnicki;AUM18A;
+Kummli;Joel;joel_kummli;PRM18C;
+Schmid;Leon;leon_schmid;PMG18C;
+Schwaegli;Joel;joel_schwaegli;MPR18A;
+Schwaller;Raphael;raphael_schwaller;PMG18C;
+Spaeti;Jan;jan_spaeti;PMG18C;
+Stauffer;Julian;julian_stauffer;PMG18C;
+Syfrig;Sven;sven_syfrig;PMG18C;
+Sefedini;Valdrin;valdrin_sefedini;PMG18A;
+Gelabert Suñer;Guillem;guillem_gelabertsuner;INF18B;
+Artho;Nicola;nicola_artho;PMG18B;
+Randegger;Mathis;mathis_randegger;PMG18B;
+Froelicher;David;david_froelicher;PRM18A;
+Rickli;Josephine;josephine_rickli;PMG18B;
+Dukic;Djordja;djordja_dukic;PRM18A;
+Gabriel;Eric;eric_gabriel;PRM18C;
+Raveendran;Ebenez;ebenez_raveendran;PRM18C;
+Khamchu;Phiraphat;phiraphat_khamchu;PRM18A;
+Pfister;Kevin;kevin_pfister;AUM18A;
+Andres;Bryan;bryan_andres;KOE18B;
+Jedrinovic;Natalia;natalia_jedrinovic;VWB18C;
+Meneguz;Lorena;lorena_meneguz;WTG18A;
+Haggenmueller;Alexandra;alexandra_haggenmueller;WTG18A;
+Berisha;Salih;salih_berisha;PRM18C;
+Sritharan;Atschuten;atschuten_sritharan;PRM18A;
+Varadin;Loris;loris_varadin;PRM18A;
+Castro;Martin;martin_castro;PMG18B;
+Geiser;Nico;nico_geiser;PMG18B;
+Wiedemann;Samuel;samuel_wiedemann;PMG18B;
+Ineichen;Jonas;jonas_ineichen;PMG18B;
+Schepp;Leonardo;leonardo_schepp;PKE18A;
+Sabotic;Alan;alan_sabotic;PMG18A;
+Arnold;Sebastian;sebastian_arnold;PMG18A;
+Gschwind;Lars;lars_gschwind;PMG18A;
+Zulfikjari;Ensar;ensar_zulfikjari;PRM18C;
+Sejdini;Elez;elez_sejdini;PRM18C;
+Pinchuk;Iuri;iuri_pinchuk;PRM18C;
+Pupic;Luka;luka_pupic;PRM18C;
+Kreienbuehl;Jasmin;jasmin_kreienbuehl;KOE18B;
+Fischer;Christian;christian_fischer;AUM18A;
+Sikyuerek;Alihaydar;alihaydar_sikyuerek;PRM18C;
+Schaerer;Danja;danja_schaerer;DRO18A;
+Cunha Barbosa;Leticia;leticia_cunhabarbosa;KUA18B;
+Haziri;Zgjim;zgjim_haziri;AUM18A;
+Jackenkroll;Damian;damian_jackenkroll;KOE18B;
+Jedrinovic;David;david_jedrinovic;AUF18B;
+Meyer;Elena;elena_meyer;REF18A;
+Tomaszewski;Kevin;kevin_tomaszewski;RPR18A;
+Teklehaimanot;Filmon;filmon_teklehaimanot;KUA18B;
+Poethke;Tobias Alfred;tobiasalfred_poethke;PRM18A;
+Uthayakumaran;Delvin;delvin_uthayakumaran;PRM18B;
+Gutaj;Liridon;liridon_gutaj;NPR17A;
+Puentener;Dario Joel;dariojoel_puentener;KOE18A;
+Yosief;Efrem;efrem_yosief;KUA18A;
+Pricopi;Sorin-Fanica;sorin-fanica_pricopi;REF18A;
+Yilmaz;Eda;eda_yilmaz;KUA18B;
+Lobsiger;Nicola;nicola_lobsiger;AUF18B;
+Neff;Raphael;raphael_neff;PRM18A;
+Lehner;Micha;micha_lehner;PMG18C;
+Marti;Mario;mario_marti;AUF18B;
+Guzman;Arianny Smile;ariannysmile_guzman;KUA18A;
+Debas;Rahwa;rahwa_debas;KUA18B;
+Tautschnig;Jan;jan_tautschnig;KOE18A;
+Fuhrmann;Louis Guido;louisguido_fuhrmann;KOE17B;
+Landolt;Kim;kim_landolt;WTG18A;
+Sinnathurai;Veenujan;veenujan_sinnathurai;PMG17B;
+Gunasingam;Vithurshan;vithurshan_gunasingam;PRM17B;
+Rohrbach;Dino;dino_rohrbach;KOE18A;
+Staempfli;Sebastian;sebastian_staempfli;RPR18A;
+Dzeljilji;Enis;enis_dzeljilji;RPR18A;
+Nazari;Mahtab;mahtab_nazari;REA18A;
+Akbulut;Seyma;seyma_akbulut;KOE18B;
+Lagnaz;Tabea;tabea_lagnaz;KUA18A;
+Rust;Lars;lars_rust;KOE18B;
+Hasani;Mihone;mihone_hasani;DBA18A;
+Iliev;Stole;stole_iliev;RPR18A;
+Rasu;Gnanendran;gnanendran_rasu;KOE17A;
+Kocher;Tatjana;tatjana_kocher;REF18A;
+Haziri;Fatlind;fatlind_haziri;AUA18A;
+Brunner;Nico;nico_brunner;AUA18A;
+Mamand;Shah Faisal;shah_mamand;INVOL18A;
+Slaimi;Fedi;fedi_slaimi;PRM18A;
+Boutellier;Yannick;yannick_boutellier;PMG18C;
+Bernhard;Lars;lars_bernhard;AUF18B;
+Magurno;Mattia Carmine;mattiacarmine_magurno;INF18A;
+Cemali;Eren;eren_cemali;NPR17A;
+Hunziker;Dominik;dominik_hunziker;KUA18B;
+Rueegger;Colin;colin_rueegger;AUF17A;
+Fahrer;Denise;denise_fahrer;KOE17B;
+Krasniqi;Labiat;labiat_krasniqi;AUA18A;
+Graber;Marlon Jonas;marlonjonas_graber;KUA18B;
+Mueller;Cederic;cederic_mueller;PRM18A;
+Hassani;Eynollah;eynollah_hassani;AUA18A;
+Roth;Christoph;christoph_roth3;KOE18B;
+oeztuerk;Mustafamert;mustafamert_oeztuerk;PKE18A;
+Misteli;Arthee;arthee_misteli;NPR17A;
+Krasniqi;Toni;toni_krasniqi;MPR18A;
+Duss;Jade;jade_duss;REF18A;
+Braga Graca;Ruben Filipe;rubenfilipe_bragagraca;REA18A;
+Schenker;Saskia;saskia_schenker;AUM16A;
+Gambone;Dario;dario_gambone;BM2_TE18B;
+Gasser;Elias;elias_gasser;VWB18B;
+Krishnarajah;Priyanka;priyanka_krishnarajah;VWB18B;
+Hoehn;Carmen;carmen_hoehn;VWB18B;
+Blaser;Tamara;tamara_blaser;VWB18B;
+Cardinaux;Jamil;jamil_cardinaux;VWB18A VWB18A;
+Jabou;Anthea;anthea_jabou;REF18A;
+Sultani;Morteza;morteza_sultani;INF18B;
+Niederhauser;Sylvio Reyes;sylvioreyes_niederhauser;KOE18A;
+Saciri;Burim;burim_saciri;NPR17A;
+Erbilgic;Emirhan;emirhan_erbilgic;AUF18B;
+Kleeb;Christian;christian_kleeb;PMG17B;
+Wirz;Steve;steve_wirz;NPR17A;
+Moretti;Michelle Vanessa;michellevanessa_moretti;REA18A;
+Haliti;Driart;driart_haliti;AUF18B;
+Gavran;Pejo;pejo_gavran;RPR18A;
+Mutunga;Maria Anita;mariaanita_mutunga;KOE18B;
+Joss;Dario;dario_joss;KUA18B;
+Berisha;Vatan;vatan_berisha;AUF18B;
+Bajraktaraj;Leonis;leonis_bajraktaraj;PRM18A;
+Alimusaj;Albijana;albijana_alimusaj;PRM18C;
+Roweck;Jan;jan_roweck;AUM18A;
+Mosimann;Amanda-Amalia;amanda-amalia_mosimann;REF18A;
+Gloor;Anastasia;anastasia_gloor;KOE18B;
+Florescu;Cristian-Bogdan;cristian-bogdan_florescu;KOE18A;
+Duerrenberger;Tamara;tamara_duerrenberger;REF18A;
+Gashi;Dijamant;dijamant_gashi;AUF18A;
+Tesfasilassie;Henok;henok_tesfasilassie;PRM18C;
+Scholl;Gregory;gregory_scholl;KUA18A;
+Niththiyananthan;Sugjepan;sugjepan_niththiyananthan;KUA18A;
+Akbari;Arif;arif_akbari;RPR18A;
+Kibreab;Samiel;samiel_kibreab;IJO18A;
+Alemnegus;Hiryti;hiryti_alemnegus;IJO18A;
+Anday;Selam;selam_anday;IJO18A;
+Bahlibi;Abel;abel_bahlibi;IJO18A;
+Dezdari;Leonardo;leonardo_dezdari;IJO18A;
+Eyob;Habteab;habteab_eyob;IJO18A;
+Haidari;Khalil Hosein;khalilhosein_haidari;IJO18A;
+Ibarra Barreto;Norma;norma_ibarrabarreto;IJO18A;
+Isa;Nasir;nasir_isa;IJO18A;
+Jabarin;Nour Ulhuda;nourulhuda_jabarin;IJO18A;
+Tsehaye;Andeberhan;andeberhan_tsehaye;IJO18A;
+Mulubrhan;Denden;denden_mulubrhan;IJO18A;
+Tocev;Hristijan;tocev_hristijan;IJO18A;
+Ahmadi;Rahmat;rahmat_ahmadi2;IJO18B;
+Brhane;Daniel;daniel_brhane;IJO18B;
+Daniel;Mogos;mogos_daniel;IJO18B;
+Fisehaye;Samuel;samuel_fisehaye;IJO18B;
+Gebrekidan;Yosief;yosief_gebrekidan;IJO18B;
+Jafari;Ruhollah;ruhollah_jafari;IJO18B;
+Limoli;Christian;christian_limoli;IJO18A;
+Meharena;Semira;semira_meharena;IJO18B;
+Mengisteab;Yordanos;yordanos_mengisteab;IJO18B;
+Minasse;Abel;abel_minasse;IJO18B;
+Quahraman;Zahra;zahra_quahraman;IJO18B;
+Shirzad;Shams;shams_shirzad;IJO18B;
+Temesgen;Dawit;dawit_temesgen;IJO18B;
+Afewerki;Hlawe;afewerki_hlawe;IJBV18A;
+Akbari;Khodadad;khadadad_akbari;IJBV18A;
+Mengstu;Merhawi;merhawi_mengstu;IJBV18A;
+Naseri;Akbar;akbar_naseri;IJBV18A;
+Semere;Samuel;samuel_semere;IJBV18A;
+Fazli;Hasina;hasina_fazli;IJBV18B;
+Husseini;Tahir;tahir_husseini;IJBV18B;
+Khalili;Issa;issa_khalili;IJBV18B;
+Kibrom;Abel;abel_kibrom;IJBV18B;
+Kordoska;Monika;monika_kordoska;IJBV18B;
+Wangui;Paul Mwangi;paulmwangi_wangui;IJBV18B;
+Mirzaei;Yahya;yahya_mirzaei;IJBV18C;
+Ribeiro;Jessica;jessica_ribeiro;IJBV18C;
+Rubli Gonzalez;Patrick;patrick_rubligonzalez;IJBV18C;
+Tsegay;Mewael;mewael_tsegay;IJBV18C;
+Wijesinghe;Mario Dahan Geeth;mariodahangeeth_wijesinghe;IJBV18C;
+Gebrekidan;Mhreteab;mhreteab_gebrekidan;INVOL18A;
+Mussie Teklehaimanot;Yohannes;yohannes_mussieteklehaimanot;INVOL18A;
+Tsigehanes;Erdom;erdom_tsigehanes;MPR18A;
+Mohamed;Abdulsalam;abdulsalam_mohamed;INVOL18B;
+Brugger;Joana;joana_brugger;REF18A;
+Herrmann;Nils;nils_herrmann;AUF18B;
+De Jesus Pinto;Patrick Wendel;patrickwendel_dejesuspinto;REF18A;
+Salmou;Ghaida;ghaida_salmou;INVOL18B;
+Abraham;Filimon;filimon_abraham;KUA18B;
+Zimmermann;Sandrine;sandrine_zimmermann;KOE18B;
+Campos Farias;Frederico;frederico_camposfarias;NPR17A;
+Thaqi;Liridon;liridon_thaqi;RPR18A;
+Streich;Veronica;veronica_streich;AUF18B;
+Anchora;Rachele;rachele_anchora;WTG18A;
+Vocelka;Marcel;marcel_vocelka;REA18A;
+Mengisteab;Bereket;bereket_mengisteab;Ex;
+Sutharsan;Sansujan;sansujan_satharsan;IJO18A;
+Lehmann;Jasmin;jasmin_lehmann;SPE;
+Scheuermeyer;Chantal;chantal_scheuermeyer;SPE;
+Haile;Daniel;daniel_haile;INVOL18B;
+Hashimi;Fida;fida_hashimi;IJBV18C;
+Ramo;Desolz;desolz_ramo;Ex;
+Haqyar;Nurullah;nurullah_haqyar;IJBV18A;
+Habtesilassie;Tesfabrhan;tesfabrhan_habtesilassie;INVOL18A;
+Demirkaya;Lukas;lukas_demirkaya;PRM18C;
+Ahmadi;Mustafa;mustafa_ahmadi;RPR18A;
+Mohammadi;Nuri;nuri_mohammadi;IJBV18A;
+Mouzinho;Naomi;naomi_mouzinho;DBA18A;
+Mujanovic;Emir;emir_mujanovic;AUF18B;

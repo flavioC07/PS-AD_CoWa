@@ -1,11 +1,10 @@
 #----------------------------------------------------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Sicherheitsrelevante Aktionen für einen spezifischen AD-Benutzer durchführen
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen: Dieses Skript ermöglicht sicherheitsrelevante Aktionen wie das Entsperren eines Kontos,
 # das Aktivieren eines Kontos und das Zurücksetzen eines Passworts für einen spezifischen AD-Benutzer.
-# Es ist robust, effizient und gut dokumentiert, um die bestmögliche Note zu erzielen.
 #----------------------------------------------------------------------------------------------------------
 
 # Lade die erforderlichen Module

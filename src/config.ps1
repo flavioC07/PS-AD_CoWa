@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Konfigurationseinstellungen für das AD-Projekt bereitstellen
 # Datum: 10.06.2023
 # Version: 1.6
@@ -38,7 +38,7 @@ $maxLoginAttempts = 5
 $passwordExpirationDays = 90
 
 # Standard-Passwortrichtlinie
-$passwordPolicy = "Buchstaben123!"
+$passwordPolicy = "NeuesPasswort123!"
 
 # Funktion zum Laden der Konfigurationseinstellungen
 function Load-ConfigSettings {

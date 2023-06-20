@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Bulk-Funktionen zum Aktualisieren mehrerer AD-Benutzer
 # Datum: 02.06.2023
 # Version: 1.0
@@ -33,10 +33,4 @@ function Update-MultipleADUsers {
     }
 }
 
-# Beispielaufruf der Funktion
 
-$usersToUpdate = "Benutzer1", "Benutzer2", "Benutzer3"
-$propertyToUpdate = "Beschreibung"
-$newValue = "Neue Beschreibung"
-
-Update-MultipleADUsers -Usernames $usersToUpdate -Property $propertyToUpdate -Value $newValue

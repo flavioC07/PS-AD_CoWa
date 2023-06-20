@@ -1,5 +1,5 @@
 # -------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Datum: 18.06.2022
 # Version: 1.0
 # Funktionsbeschreibung: XML zu CSV konvertieren
@@ -19,6 +19,7 @@ function xmlToCsv {
    
 
     # CSV-Headers hinzufuegen
+    $headers = $SchuelerXML.Objs.Obj.MS.S.N.GetValue(0) -replace '\.', '_'
     $SchuelerXML.Objs.Obj.MS.S.N.GetValue(0) | Out-File -Encoding utf8 -FilePath $csvFile
    
 
@@ -34,7 +35,7 @@ function xmlToCsv {
     # Hinweis: XML hat bereits ein CSV Format
     foreach ($line in $SchuelerXML.Objs.Obj.MS.S.InnerXML) {
         # in jeder Linie, Umlaute ersetzen
-        $line = $line -ireplace 'ä', 'ae' -ireplace 'ö', 'oe' -ireplace 'ü', 'ue' -ireplace 'è', 'e' -ireplace 'é', 'e'
+        $line = $line -ireplace 'ä', 'ae' -ireplace 'ö', 'oe' -ireplace 'ü', 'ue' -ireplace 'è', 'e' -ireplace 'é', 'e' -replace '\.', '_'
         # Jede Linie der Datei hinzufuegen
         $line | Out-File -Encoding utf8 -FilePath $csvFile -Append
         
@@ -43,3 +44,6 @@ function xmlToCsv {
     }
     
 }
+
+# CSV-Datei erstellen
+xmlToCsv

@@ -4,25 +4,22 @@
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen: Dieses Skript automatisiert den Prozess des Erstellens und Löschens von AD-Gruppen pro Klasse.
-# Es ist robust, effizient und gut dokumentiert, um die bestmögliche Note zu erzielen.
 #----------------------------------------------------------------------------------------------------------
 
 # Lade die erforderlichen Module
 Import-Module ActiveDirectory
 
 # Pfade und Dateinamen definieren
-$xmlFile = "C:\github\PS-AD_CoWa\Data\schueler.xml"
-$logFile = "C:\github\PS-AD_CoWa\logfiles\logfile.log"
+$csvFile = "C:\github\PS-AD_CoWa\Data\schueler.csv"
+$logFile = "C:\github\PS-AD_CoWa\logfiles\taegliches_protokoll.log"
 
-# Überprüfe, ob die XML-Datei vorhanden ist
-if (Test-Path $xmlFile) {
-    # Lese die XML-Datei ein und erstelle/lösche die Gruppen
-    $xml = [xml](Get-Content $xmlFile)
-
-    foreach ($class in $xml.Classes.Class) {
-        $className = $class.Name
-        $groupPath = $class.GroupPath
-        $action = $class.Action
+# Überprüfe, ob die CSV-Datei vorhanden ist
+if (Test-Path $csvFile) {
+    # Lese die CSV-Datei ein und erstelle/lösche die Gruppen
+    $users = Import-Csv -Path $csvFile -Delimiter ";" | foreach{
+        $className = $_.Klasse
+        $groupPath = "OU=Lernende,OU=BZTF,DC=conte,DC=local"  
+        $action = $_.Action
 
         if ($action -eq "Create") {
             # Überprüfe, ob die Gruppe bereits existiert
@@ -58,6 +55,6 @@ if (Test-Path $xmlFile) {
         }
     }
 } else {
-    Write-Host "Fehler: Die XML-Datei '$xmlFile' wurde nicht gefunden."
-    Add-Content -Path $logFile -Value "Fehler: Die XML-Datei '$xmlFile' wurde nicht gefunden."
+    Write-Host "Fehler: Die CSV-Datei '$csvFile' wurde nicht gefunden."
+    Add-Content -Path $logFile -Value "Fehler: Die CSV-Datei '$csvFile' wurde nicht gefunden."
 }

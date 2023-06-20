@@ -1,11 +1,10 @@
 #----------------------------------------------------------------------------------------------------------
-# Author: Timon Wagner, Flavio Conte
+# Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Übersicht über alle AD-Benutzer anzeigen
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen: Dieses Skript gibt eine detaillierte Übersicht über alle AD-Benutzer aus. Es zeigt Benutzer
 # an, für die kein Passwort gesetzt ist, deren Passwort nie abläuft, sowie deaktivierte/gesperrte Benutzer.
-# Das Skript ist präzise, effizient und gut dokumentiert, um die bestmögliche Note zu erzielen.
 #----------------------------------------------------------------------------------------------------------
 
 # Lade die erforderlichen Module
