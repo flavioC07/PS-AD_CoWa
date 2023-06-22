@@ -3,7 +3,7 @@
 # Funktion des Skripts: Menügeführte Funktionen ausführen
 # Datum: 02.06.2023
 # Version: 1.0
-# Bemerkungen: Dieses Skript ermöglicht es die ganzen Skripts auszuführen.
+# Bemerkungen: Dieses Skript ermöglicht es, verschiedene Skripts auszuführen.
 #----------------------------------------------------------------------------------------------------------
 
 # Funktion zum Anzeigen des Hauptmenüs
@@ -14,11 +14,13 @@ function Show-MainMenu {
     Write-Host "============================================================"
     Write-Host "Hauptmenü"
     Write-Host "1. Bulk-Funktionen zum Aktualisieren mehrerer AD-Benutzer"
-    Write-Host "2. Erstellen/Deaktivieren der AD-Accounts für alle Lernenden"
+    Write-Host "2. Erstellen der AD-Accounts für alle Lernenden"
     Write-Host "3. Gruppenverwaltung"
     Write-Host "4. Protokollierung der Benutzerinformationen"
     Write-Host "5. Benutzerübersicht"
     Write-Host "6. Benutzerverwaltung"
+    Write-Host "7. Benutzerkonten deaktivieren"
+    Write-Host "8. Benutzerkonten löschen"
     Write-Host "Q. Beenden"
     Write-Host "============================================================"
     Write-Host
@@ -55,6 +57,14 @@ function Execute-Option {
         '6' {
             Write-Host "Führe Benutzerverwaltung aus"
             . 'C:\github\PS-AD_CoWa\src\manage_user.ps1'
+        }
+        '7' {
+            Write-Host "Führe Benutzerkonten deaktivieren aus"
+            . 'C:\github\PS-AD_CoWa\src\deactivate_user_accounts.ps1'
+        }
+        '8' {
+            Write-Host "Führe Benutzerkonten löschen aus"
+            . 'C:\github\PS-AD_CoWa\src\delete_user_accounts.ps1'
         }
         'Q' {
             Write-Host "Beende das Skript"
