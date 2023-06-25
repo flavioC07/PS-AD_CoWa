@@ -7,54 +7,59 @@
 # Organisationseinheiten (OUs) und andere benutzerdefinierte Einstellungen.
 #----------------------------------------------------------------------------------------------------------
 
-# Pfad zum XML-File für die Erstellung/Deaktivierung der AD-Accounts
-$accountXMLFile = "C:\github\PS-AD_CoWa\Data\schueler.xml"
+# Konfigurationsdatei für Menüskript
 
-# Pfade zu den Logfiles
-$logFilesPath = "C:\github\PS-AD_CoWa\logfiles"
+# Pfade zu den einzelnen Skripten
 
-# Name der Haupt-OU für die Lernenden
-$studentsOUName = "Lernende"
+$createUserAccountsScript = "C:\github\PS-AD_CoWa\src\create_user_accounts.ps1"
+$manageGroupScript = "C:\github\PS-AD_CoWa\src\manage_group.ps1"
+$logUserInfoScript = "C:\github\PS-AD_CoWa\src\log_user_info.ps1"
+$userOverviewScript = "C:\github\PS-AD_CoWa\src\user_overview.ps1"
+$manageUserScript = "C:\github\PS-AD_CoWa\src\manage_user.ps1"
+$deactivateUserAccountsScript = "C:\github\PS-AD_CoWa\src\deactivate_user_accounts.ps1"
+$deleteUserScript = "C:\github\PS-AD_CoWa\src\delete_user.ps1"
+$assignClassScript = "C:\github\PS-AD_CoWa\src\manage_class.ps1"
 
-# Name der Haupt-OU für die Klassen
-$classesOUName = "Klassen"
+# Exportiere die Skriptpfade in eine Hashtable
 
-# Name der Haupt-OU für die AD-Gruppen
-$groupsOUName = "Gruppen"
-
-# Prefix für die Benutzernamen der Lernenden
-$studentUsernamePrefix = "Lernender"
-
-# Prefix für die Benutzernamen der AD-Gruppen
-$groupPrefix = "Gruppe"
-
-# Maximale Länge des Benutzernamens
-$maxUsernameLength = 20
-
-# Maximale Anzahl von Anmeldeversuchen für ein Benutzerkonto
-$maxLoginAttempts = 5
-
-# Anzahl der Tage, nach denen ein Passwort abläuft
-$passwordExpirationDays = 90
-
-# Standard-Passwortrichtlinie
-$passwordPolicy = "NeuesPasswort123!"
-
-# Funktion zum Laden der Konfigurationseinstellungen
-function Load-ConfigSettings {
-    $configSettings = @{
-        AccountXMLFile = $accountXMLFile
-        LogFilesPath = $logFilesPath
-        StudentsOUName = $studentsOUName
-        ClassesOUName = $classesOUName
-        GroupsOUName = $groupsOUName
-        StudentUsernamePrefix = $studentUsernamePrefix
-        GroupPrefix = $groupPrefix
-        MaxUsernameLength = $maxUsernameLength
-        MaxLoginAttempts = $maxLoginAttempts
-        PasswordExpirationDays = $passwordExpirationDays
-        PasswordPolicy = $passwordPolicy
+$scriptPaths = @{
+    '1' = @{
+        'Path' = $createUserAccountsScript
+        'Description' = "Skript zum Erstellen der AD-Accounts für alle Lernenden"
     }
-    return $configSettings
+    '2' = @{
+        'Path' = $manageGroupScript
+        'Description' = "Skript zur Gruppenverwaltung"
+    }
+    '3' = @{
+        'Path' = $logUserInfoScript
+        'Description' = "Skript zur Protokollierung der Benutzerinformationen"
+    }
+    '4' = @{
+        'Path' = $userOverviewScript
+        'Description' = "Skript zur Anzeige einer detaillierten Übersicht über alle AD-Benutzer"
+    }
+    '5' = @{
+        'Path' = $manageUserScript
+        'Description' = "Skript zur Benutzerverwaltung"
+    }
+    '6' = @{
+        'Path' = $deactivateUserAccountsScript
+        'Description' = "Skript zum Deaktivieren von Benutzerkonten"
+    }
+    '7' = @{
+        'Path' = $deleteUserScript
+        'Description' = "Skript zum Löschen von Benutzerkonten"
+    }
+    '8' = @{
+        'Path' = $assignClassScript
+        'Description' = "Skript zur Klassenzuweisung"
+    }
 }
+
+# Pfad zu den Logdateien
+$logFilePath1 = "C:\github\PS-AD_CoWa\logfiles\statistik_user.log"
+$logFilePath2 = "C:\github\PS-AD_CoWa\logfiles\taegliches_protokoll.log"
+$logFilePath3 = "C:\github\PS-AD_CoWa\logfiles\user_overview.log"
+
 

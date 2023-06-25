@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Verwaltung einzelner AD-Benutzer
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 1.1
 # Bemerkungen: Dieses Skript ermöglicht das Entsperren, Aktivieren und Zurücksetzen des Passworts für einen einzelnen AD-Benutzer. Es sperrt den Benutzer automatisch nach fünf fehlgeschlagenen Anmeldeversuchen oder nach sieben Tagen ohne Passwortänderung.
 #----------------------------------------------------------------------------------------------------------
 
@@ -117,8 +117,20 @@ function Execute-Option {
             Unlock-UserAccount -Username $username
         }
         '2' {
-            $username = Read-Host "Geben Sie den Benutzernamen ein"
-            Enable-UserAccount -Username $username
+            $usernameOption = Read-Host "Möchten Sie alle Benutzerkonten (A) oder ein einzelnes Benutzerkonto (E) aktivieren?"
+            if ($usernameOption -eq "A") {
+                $allUsers = Import-Csv -Path "C:\Pfad\Zur\Benutzerliste.csv"
+                $allUsers | ForEach-Object {
+                    Enable-UserAccount -Username $_.Username
+                }
+            }
+            elseif ($usernameOption -eq "E") {
+                $username = Read-Host "Geben Sie den Benutzernamen ein"
+                Enable-UserAccount -Username $username
+            }
+            else {
+                Write-Host "Ungültige Option"
+            }
         }
         '3' {
             $username = Read-Host "Geben Sie den Benutzernamen ein"

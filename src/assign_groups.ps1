@@ -1,6 +1,6 @@
 #----------------------------------------------------------------------------------------------------------
 # Author: Flavio Conte, Timon Wagner
-# Funktion des Skripts: Erstellen/Deaktivieren der AD-Accounts für alle Lernenden des BZT Frauenfeld gemäß csv-Datei
+# Funktion des Skripts: Zuweisung der AD Gruppen
 # Datum: 02.06.2023
 # Version: 1.0
 # Bemerkungen: Dieses Skript automatisiert den Prozess des Erstellens und Deaktivierens von AD-Benutzerkonten
@@ -29,33 +29,16 @@ if (Test-Path $csvFile) {
         $username = $_.Benutzername -replace '\.', '_'
         $class = $_.Klasse
         $class2 = $_.Klasse2  # Für BM Schüler
-
-           # Wenn Benutzername groesser als 20 Zeichen, dann
-           if ($username.length -gt 20) {
-            # Benutzername wird gekuerzt auf die ersten 20 Zeichen
-            $username = $username.Remove(20)
-            
-        }
-
-        # Wenn der Benutzer $username noch nicht vorhanden ist, erstelle ihn
-        if (-not (Get-ADUser -Filter "SamAccountName -eq '$username'")) {
-            $newUserParams = @{
-                Name = "$firstname $lastname"
-                GivenName = $firstname
-                Surname = $lastname
-                SamAccountName = $username
-                UserPrincipalName = "$username@conte.local"
-                AccountPassword = $Initpw
-                Enabled = $true
-                Path = $targetOU
+           
+        # Wenn Benutzername groesser als 20 Zeichen, dann
+            if ($username.length -gt 20) {
+                # Benutzername wird gekuerzt auf die ersten 20 Zeichen
+                $username = $username.Remove(20)
+                
             }
+        $group = $class
+        Add-ADGroupMember -Identity $group -Members $username
 
-            # Benutzer erstellen
-            New-ADUser @newUserParams
-
-            # Informationen in die Protokolldatei schreiben
-            $logMessage = "$($newUser.Name),$($newUser.GivenName),$([DateTime]::Now),$targetOU"
-            Add-Content -Path $statistikFile -Value $logMessage
-        }
+       
     }
 }
