@@ -1,57 +1,54 @@
 #----------------------------------------------------------------------------------------------------------
 # Author: Flavio Conte, Timon Wagner
-# Funktion des Skripts: Sicherheitstechnisch wichtige Informationen der AD-Benutzer protokollieren
+# Funktion des Skripts: Protokollierung der Benutzerinformationen
 # Datum: 02.06.2023
 # Version: 1.0
-# Bemerkungen: Dieses Skript protokolliert täglich wichtige Informationen der AD-Benutzer wie das
-# Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins.
+# Bemerkungen: Dieses Skript protokolliert das Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins für jeden Benutzer.
 #----------------------------------------------------------------------------------------------------------
 
 # Lade die erforderlichen Module
 Import-Module ActiveDirectory
 
-# Pfad und Dateiname des Logfiles definieren
-$logFile = "C:\github\PS-AD_CoWa\logfiles\taegliches_protokoll.log"
+# Konfiguration
+$logFilePath = "C:\github\PS-AD_CoWa\logfiles\user_info.log"
 
-# Funktion zum Protokollieren der Benutzerinformationen
-function Log-UserInfo {
-    # Aktuelles Datum und Uhrzeit ermitteln
-    $currentDateTime = Get-Date -Format "dd.MM.yyyy HH:mm:ss"
+# Benutzerinformationen abrufen
+$users = Get-ADUser -Filter *
 
-    # Benutzerinformationen abrufen
-    $users = Get-ADUser -Filter *
+# Benutzerinformationen protokollieren
+$userData = @()
+foreach ($user in $users) {
+    $passwordLastSet = $user.PasswordLastSet
+    if ($passwordLastSet) {
+        $passwordAge = (Get-Date) - $passwordLastSet
+        $passwordAgeDays = $passwordAge.Days
+    }
+    else {
+        $passwordAgeDays = "N/A"
+    }
 
-    foreach ($user in $users) {
-        $username = $user.SamAccountName
-        $passwordAge = ((Get-Date) - $user.PasswordLastSet).Days
-        $lastLogonDate = $user.LastLogonDate
-        $logonCount = $user.LogonCount
+    $lastLogonDate = $user.LastLogonDate
+    $logonCount = $user.LogonCount
 
-        # Informationen formatieren
-        $logMessage = "{0} | Benutzer: {1,-15} | Passwortalter: {2,-5} Tage | Letzte Anmeldung: {3,-20} | Logins: {4}" -f $currentDateTime, $username, $passwordAge, $lastLogonDate, $logonCount
-
-        # Informationen protokollieren
-        Add-Content -Path $logFile -Value $logMessage
+    $userData += [PSCustomObject]@{
+        "Benutzername" = $user.SamAccountName
+        "Passwortalter" = $passwordAgeDays
+        "Letzte Anmeldung" = $lastLogonDate
+        "Anzahl der Logins" = $logonCount
     }
 }
 
-# Täglichen Ausführungszeitpunkt definieren (Beispiel: 23:59 Uhr)
-$dailyExecutionTime = Get-Date -Hour 23 -Minute 59 -Second 0
+# Tabelle für die Benutzerinformationen formatieren
+$table = $userData | Sort-Object "Benutzername" | Format-Table -AutoSize | Out-String
 
-# Endlosschleife, die das Skript täglich ausführt
-while ($true) {
-    # Aktuelle Zeit ermitteln
-    $currentTime = Get-Date
+# Protokollierung der Benutzerinformationen
+$logMessage = @"
+$('-' * 80)
+Datum und Uhrzeit: $(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+Passwortalter, Datum der letzten Anmeldung und Anzahl der Logins für jeden Benutzer:
 
-    # Überprüfen, ob es Zeit für die Ausführung ist
-    if ($currentTime -ge $dailyExecutionTime) {
-        # Protokolliere Benutzerinformationen
-        Log-UserInfo
+$table
+"@
 
-        # Nächsten Ausführungszeitpunkt für den nächsten Tag festlegen
-        $dailyExecutionTime = $dailyExecutionTime.AddDays(1)
-    }
-
-    # Eine Sekunde warten
-    Start-Sleep -Seconds 1
-}
+# Protokolldatei aktualisieren
+Add-Content -Path $logFilePath -Value $logMessage

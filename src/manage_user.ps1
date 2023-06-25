@@ -98,7 +98,6 @@ function Show-MainMenu {
     Write-Host "1. Konto entsperren"
     Write-Host "2. Konto aktivieren"
     Write-Host "3. Passwort zurücksetzen"
-    Write-Host "4. Benutzer entsperren"
     Write-Host "Q. Beenden"
     Write-Host "============================================================"
     Write-Host
@@ -113,13 +112,25 @@ function Execute-Option {
 
     switch ($Option) {
         '1' {
-            $username = Read-Host "Geben Sie den Benutzernamen ein"
-            Unlock-UserAccount -Username $username
+            $usernameOption = Read-Host "Möchten Sie alle Benutzerkonten (A) oder ein einzelnes Benutzerkonto (E) entsperren?"
+            if ($usernameOption -eq "A") {
+                $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
+                $allUsers | ForEach-Object {
+                    Unlock-UserAccount -Username $_.Username
+                }
+            }
+            elseif ($usernameOption -eq "E") {
+                $username = Read-Host "Geben Sie den Benutzernamen ein"
+                Unlock-UserAccount -Username $username
+            }
+            else {
+                Write-Host "Ungültige Option"
+            }
         }
         '2' {
             $usernameOption = Read-Host "Möchten Sie alle Benutzerkonten (A) oder ein einzelnes Benutzerkonto (E) aktivieren?"
             if ($usernameOption -eq "A") {
-                $allUsers = Import-Csv -Path "C:\Pfad\Zur\Benutzerliste.csv"
+                $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
                 $allUsers | ForEach-Object {
                     Enable-UserAccount -Username $_.Username
                 }
@@ -133,12 +144,20 @@ function Execute-Option {
             }
         }
         '3' {
-            $username = Read-Host "Geben Sie den Benutzernamen ein"
-            Reset-UserPassword -Username $username
-        }
-        '4' {
-            $username = Read-Host "Geben Sie den Benutzernamen ein"
-            Check-LoginAttempts -Username $username
+            $usernameOption = Read-Host "Möchten Sie alle Benutzerkonten (A) oder ein einzelnes Benutzerkonto (E) zurücksetzen?"
+            if ($usernameOption -eq "A") {
+                $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
+                $allUsers | ForEach-Object {
+                    Reset-UserPassword -Username $_.Username
+                }
+            }
+            elseif ($usernameOption -eq "E") {
+                $username = Read-Host "Geben Sie den Benutzernamen ein"
+                Reset-UserPassword -Username $username
+            }
+            else {
+                Write-Host "Ungültige Option"
+            }
         }
         'Q' {
             Write-Host "Zurück zum Hauptmenü"

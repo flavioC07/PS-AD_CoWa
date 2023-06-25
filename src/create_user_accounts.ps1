@@ -12,7 +12,6 @@ Import-Module ActiveDirectory
 
 # Pfade und Dateinamen definieren
 $csvFile = "C:\github\PS-AD_CoWa\Data\schueler.csv"
-$statistikFile = "C:\github\PS-AD_CoWa\logfiles\statistik_user.log"
 
 # gesetztes PW
 $Initpw = "NeuesPasswort123!" | ConvertTo-SecureString -AsPlainText -Force
@@ -53,9 +52,7 @@ if (Test-Path $csvFile) {
             # Benutzer erstellen
             New-ADUser @newUserParams
 
-            # Informationen in die Protokolldatei schreiben
-            $logMessage = "$($newUser.Name),$($newUser.GivenName),$([DateTime]::Now),$targetOU"
-            Add-Content -Path $statistikFile -Value $logMessage
+           
         }
     }
 }
