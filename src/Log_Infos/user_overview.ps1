@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Übersicht über alle AD-Benutzer anzeigen
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 2.0
 # Bemerkungen: Dieses Skript gibt eine detaillierte Übersicht über alle AD-Benutzer aus. Es zeigt Benutzer
 # an, für die kein Passwort gesetzt ist, deren Passwort nie abläuft, sowie deaktivierte/gesperrte Benutzer.
 #----------------------------------------------------------------------------------------------------------
@@ -10,14 +10,17 @@
 # Lade die erforderlichen Module
 Import-Module ActiveDirectory
 
+# Setze die Ziel-OU für die Lernenden
+$ouLernende = "OU=Lernende,OU=BZTF,DC=conte,DC=local"
+
 # Benutzerinformationen abrufen
-$users = Get-ADUser -Filter *
+$users = Get-ADUser -Filter * -SearchBase $ouLernende
 
 # Benutzer ohne Passwort
-$usersWithoutPassword = $users | Where-Object { $_.PasswordNeverExpires -eq $false -and $_.PasswordLastSet -eq $null }
+$usersWithoutPassword = $users | Where-Object { $_.PasswordLastSet -eq $null }
 
 # Benutzer mit Passwort, das nie abläuft
-$usersWithNonExpiringPassword = $users | Where-Object { $_.PasswordNeverExpires -eq $true }
+$usersWithNonExpiringPassword = $users | Where-Object { $_.PasswordLastSet -eq 0 }
 
 # Deaktivierte/gesperrte Benutzer
 $disabledUsers = $users | Where-Object { $_.Enabled -eq $false }
@@ -76,4 +79,3 @@ $tableData | Select-Object Name, SamAccountName, Beschreibung | Format-Table | O
 
 Write-Host ""
 Write-Host "Die Benutzerübersicht wurde im Logfile 'user_overview.log' gespeichert."
-

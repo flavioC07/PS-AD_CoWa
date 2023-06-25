@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Löschen aller Benutzer in der OU "BZTF > Lernende"
 # Datum: 18.06.2023
-# Version: 1.0
+# Version: 1.1
 # Bemerkungen: Dieses Skript automatisiert den Prozess des Löschens aller Benutzer in der OU "BZTF > Lernende".
 #----------------------------------------------------------------------------------------------------------
 

@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Erstellen/Deaktivieren der AD-Accounts für alle Lernenden des BZT Frauenfeld gemäß csv-Datei
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 1.4
 # Bemerkungen: Dieses Skript automatisiert den Prozess des Erstellens und Deaktivierens von AD-Benutzerkonten
 # für Lernende des BZT Frauenfeld anhand einer csv-Datei.
 #----------------------------------------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Deaktivierung von AD-Benutzerkonten
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 1.2
 # Bemerkungen: Dieses Skript ermöglicht die Deaktivierung von Benutzerkonten in Active Directory.
 #----------------------------------------------------------------------------------------------------------
 

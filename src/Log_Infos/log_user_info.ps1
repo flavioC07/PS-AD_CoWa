@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Protokollierung der Benutzerinformationen
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 1.2
 # Bemerkungen: Dieses Skript protokolliert das Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins für jeden Benutzer.
 #----------------------------------------------------------------------------------------------------------
 

@@ -42,15 +42,7 @@ if ($choice -eq "C") {
                 Write-Host "Die Gruppe für die Klasse '$className' wurde erfolgreich erstellt."
             }
         
-            # # Füge die entsprechenden Benutzer zur Klasse hinzu
-            # if ($newGroup) {
-            #     $members = Get-ADUser -Filter {Klasse -eq $className -or Klasse2 -eq $className} -SearchBase $ouLernende
-            #     foreach ($member in $members) {
-            #         Add-ADGroupMember -Identity $newGroup -Members $member
-            #         Set-ADUser -Identity $member -Add @{memberOf=$newGroup.DistinguishedName}
-            #     }
-            #     Write-Host "Die Benutzer wurden zur Klasse '$className' hinzugefügt."
-            # }
+          
         }
         
         if ($class2Name -ne "" -and $class2Name -ne $className) {
@@ -70,42 +62,43 @@ if ($choice -eq "C") {
                 $members2 = Get-ADUser -Filter {Klasse -eq $class2Name -or Klasse2 -eq $class2Name} -SearchBase $ouLernende
                 foreach ($member2 in $members2) {
                     Add-ADGroupMember -Identity $newGroup2 -Members $member2
-                    Set-ADUser -Identity $member2 -Add @{memberOf=$newGroup2.DistinguishedName}
+                    Write-Host "Der Benutzer '$($member2.Name)' wurde zur Klasse '$class2Name' hinzugefügt."
                 }
-                Write-Host "Die Benutzer wurden zur Klasse '$class2Name' hinzugefügt."
+                
             }
         }
     }
 } elseif ($choice -eq "L") {
     # Klassen löschen
-    $classToDelete = Read-Host "Geben Sie den Namen der zu löschenden Klasse ein (oder * für alle Klassen):"
-    
-    if ($classToDelete -eq "*") {
-        $groupsToDelete = Get-ADGroup -Filter * -SearchBase $ouKlassengruppen
-        foreach ($group in $groupsToDelete) {
-            $groupName = $group.Name
-            $members = Get-ADGroupMember -Identity $group
-            foreach ($member in $members) {
-                Set-ADUser -Identity $member -Remove @{memberOf=$group.DistinguishedName}
-            }
-            Remove-ADGroup -Identity $groupName -Confirm:$false
-            Write-Host "Die Gruppe '$groupName' wurde erfolgreich gelöscht."
+$classToDelete = Read-Host "Geben Sie den Namen der zu löschenden Klasse ein (oder * für alle Klassen):"
+
+if ($classToDelete -eq "*") {
+    $groupsToDelete = Get-ADGroup -Filter * -SearchBase $ouKlassengruppen
+    foreach ($group in $groupsToDelete) {
+        $groupName = $group.Name
+        $members = Get-ADGroupMember -Identity $group
+        foreach ($member in $members) {
+            Remove-ADGroupMember -Identity $groupName -Members $member -Confirm:$false
         }
-    } elseif ($classToDelete) {
-        $groupToDelete = Get-ADGroup -Filter {Name -eq $classToDelete} -SearchBase $ouKlassengruppen
-    
-        if ($groupToDelete) {
-            $groupName = $groupToDelete.Name
-            $members = Get-ADGroupMember -Identity $groupToDelete
-            foreach ($member in $members) {
-                Set-ADUser -Identity $member -Remove @{memberOf=$groupToDelete.DistinguishedName}
-            }
-            Remove-ADGroup -Identity $groupName -Confirm:$false
-            Write-Host "Die Gruppe '$groupName' wurde erfolgreich gelöscht."
-        } else {
-            Write-Host "Die Gruppe für die Klasse '$classToDelete' existiert nicht."
-        }
+        Remove-ADGroup -Identity $groupName -Confirm:$false
+        Write-Host "Die Gruppe '$groupName' wurde erfolgreich gelöscht."
     }
+} elseif ($classToDelete) {
+    $groupToDelete = Get-ADGroup -Filter {Name -eq $classToDelete} -SearchBase $ouKlassengruppen
+
+    if ($groupToDelete) {
+        $groupName = $groupToDelete.Name
+        $members = Get-ADGroupMember -Identity $groupToDelete
+        foreach ($member in $members) {
+            Remove-ADGroupMember -Identity $groupName -Members $member -Confirm:$false
+        }
+        Remove-ADGroup -Identity $groupName -Confirm:$false
+        Write-Host "Die Gruppe '$groupName' wurde erfolgreich gelöscht."
+    } else {
+        Write-Host "Die Gruppe für die Klasse '$classToDelete' existiert nicht."
+    }
+}
+
 } else {
     Write-Host "Ungültige Auswahl."
 }
