@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Menügeführte Funktionen ausführen
 # Datum: 02.06.2023
-# Version: 1.0
+# Version: 1.3
 # Bemerkungen: Dieses Skript ermöglicht es, verschiedene Skripts auszuführen.
 #----------------------------------------------------------------------------------------------------------
 
@@ -21,6 +21,7 @@ function Show-MainMenu {
     Write-Host "6. Benutzerverwaltung"
     Write-Host "7. Benutzerübersicht"
     Write-Host "8. XML zu einem CSV konvertieren"
+    Write-Host "9. Benutzerinformationen loggen"
     Write-Host "Q. Beenden"
     Write-Host "============================================================"
     Write-Host
@@ -66,6 +67,10 @@ function Execute-Option {
             Write-Host "XML zu einem CSV konvertieren"
             . 'C:\github\PS-AD_CoWa\src\XMLtoCSV\xml_to_csv.ps1'
         }
+        '9' {
+            Write-Host "Führe Benutzerinformationen loggen aus"
+            . 'C:\github\PS-AD_CoWa\src\Log_Infos\log_user_info.ps1'
+        }
         'Q' {
             Write-Host "Das Skript wird beendet."
             return
@@ -79,11 +84,10 @@ function Execute-Option {
 # Hauptmenü aufrufen
 while ($true) {
     Show-MainMenu
-    $option = Read-Host -Prompt "Wählen Sie eine Option aus dem Menü (1-8, Q zum Beenden):"
+    $option = Read-Host -Prompt "Wählen Sie eine Option aus dem Menü (1-9, Q zum Beenden):"
 
     Execute-Option -Option $option
     if ($option -eq 'Q') {
         break
     }
 }
-

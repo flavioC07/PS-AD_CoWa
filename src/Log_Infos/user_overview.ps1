@@ -30,7 +30,7 @@ Write-Host "Übersicht über alle AD-Benutzer:"
 Write-Host "---------------------------------"
 
 # Spaltenüberschriften für die Benutzerübersicht
-$columnHeaders = "Name", "SamAccountName", "Beschreibung"
+$columnHeaders = "Name", "SamAccountName", "Kein Passwort gesetzt", "Passwort läuft nie ab", "Deaktiviert/Gesperrt"
 $tableData = @()
 
 # Benutzer ohne Passwort
@@ -39,7 +39,9 @@ $usersWithoutPassword | ForEach-Object {
     $userData = [ordered]@{
         "Name" = $_.Name
         "SamAccountName" = $_.SamAccountName
-        "Beschreibung" = "Kein Passwort gesetzt"
+        "Kein Passwort gesetzt" = "X"
+        "Passwort läuft nie ab" = ""
+        "Deaktiviert/Gesperrt" = ""
     }
     $tableData += New-Object -TypeName PSObject -Property $userData
 }
@@ -53,7 +55,9 @@ $usersWithNonExpiringPassword | ForEach-Object {
     $userData = [ordered]@{
         "Name" = $_.Name
         "SamAccountName" = $_.SamAccountName
-        "Beschreibung" = "Passwort läuft nie ab"
+        "Kein Passwort gesetzt" = ""
+        "Passwort läuft nie ab" = "X"
+        "Deaktiviert/Gesperrt" = ""
     }
     $tableData += New-Object -TypeName PSObject -Property $userData
 }
@@ -67,7 +71,9 @@ $disabledUsers | ForEach-Object {
     $userData = [ordered]@{
         "Name" = $_.Name
         "SamAccountName" = $_.SamAccountName
-        "Beschreibung" = "Deaktiviert/Gesperrt"
+        "Kein Passwort gesetzt" = ""
+        "Passwort läuft nie ab" = ""
+        "Deaktiviert/Gesperrt" = "X"
     }
     $tableData += New-Object -TypeName PSObject -Property $userData
 }
@@ -75,7 +81,7 @@ $disabledUsers | Format-Table Name, SamAccountName
 
 # Logfile erstellen und Benutzerübersicht speichern
 $logFilePath = "C:\github\PS-AD_CoWa\logfiles\user_overview.log"
-$tableData | Select-Object Name, SamAccountName, Beschreibung | Format-Table | Out-File -FilePath $logFilePath
+$tableData | Select-Object Name, SamAccountName, "Kein Passwort gesetzt", "Passwort läuft nie ab", "Deaktiviert/Gesperrt" | Format-Table | Out-File -FilePath $logFilePath
 
 Write-Host ""
 Write-Host "Die Benutzerübersicht wurde im Logfile 'user_overview.log' gespeichert."

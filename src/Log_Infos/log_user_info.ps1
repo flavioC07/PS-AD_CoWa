@@ -2,7 +2,7 @@
 # Author: Flavio Conte, Timon Wagner
 # Funktion des Skripts: Protokollierung der Benutzerinformationen
 # Datum: 02.06.2023
-# Version: 1.2
+# Version: 1.4
 # Bemerkungen: Dieses Skript protokolliert das Passwortalter, das Datum der letzten Anmeldung und die Anzahl der Logins für jeden Benutzer.
 #----------------------------------------------------------------------------------------------------------
 
@@ -12,8 +12,11 @@ Import-Module ActiveDirectory
 # Konfiguration
 $logFilePath = "C:\github\PS-AD_CoWa\logfiles\user_info.log"
 
+# Setze die Ziel-OU für die Lernenden
+$ouLernende = "OU=Lernende,OU=BZTF,DC=conte,DC=local"
+
 # Benutzerinformationen abrufen
-$users = Get-ADUser -Filter *
+$users = Get-ADUser -Filter * -SearchBase "OU=Lernende,OU=BZTF,DC=conte,DC=local" -properties *
 
 # Benutzerinformationen protokollieren
 $userData = @()
@@ -21,19 +24,21 @@ foreach ($user in $users) {
     $passwordLastSet = $user.PasswordLastSet
     if ($passwordLastSet) {
         $passwordAge = (Get-Date) - $passwordLastSet
-        $passwordAgeDays = $passwordAge.Days
+        $passwordAgeDays = "{0} Tage, {1} Stunden, {2} Minuten, {3} Sekunden" -f $passwordAge.Days, $passwordAge.Hours, $passwordAge.Minutes, $passwordAge.Seconds
+
     }
     else {
         $passwordAgeDays = "N/A"
     }
 
-    $lastLogonDate = $user.LastLogonDate
-    $logonCount = $user.LogonCount
+    # Eigenschaften aus dem AD abrufen
+    $lastLogon = $user.LastLogonDate
+    $logonCount = $user.logonCount
 
     $userData += [PSCustomObject]@{
         "Benutzername" = $user.SamAccountName
         "Passwortalter" = $passwordAgeDays
-        "Letzte Anmeldung" = $lastLogonDate
+        "Letzte Anmeldung" = $lastLogon
         "Anzahl der Logins" = $logonCount
     }
 }
@@ -50,5 +55,6 @@ Passwortalter, Datum der letzten Anmeldung und Anzahl der Logins für jeden Benu
 $table
 "@
 
-# Protokolldatei aktualisieren
+# Logfile leeren und Protokolldatei aktualisieren
+Clear-Content -Path $logFilePath
 Add-Content -Path $logFilePath -Value $logMessage
