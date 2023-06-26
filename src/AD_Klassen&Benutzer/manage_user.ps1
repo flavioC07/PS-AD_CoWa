@@ -116,12 +116,12 @@ function Execute-Option {
             if ($usernameOption -eq "A") {
                 $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
                 $allUsers | ForEach-Object {
-                    Unlock-UserAccount -Username $_.Username
+                    Unlock-ADAccount -Identity $_.Username
                 }
             }
             elseif ($usernameOption -eq "E") {
                 $username = Read-Host "Geben Sie den Benutzernamen ein"
-                Unlock-UserAccount -Username $username
+                Unlock-ADAccount -Identity $username
             }
             else {
                 Write-Host "Ungültige Option"
@@ -132,12 +132,12 @@ function Execute-Option {
             if ($usernameOption -eq "A") {
                 $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
                 $allUsers | ForEach-Object {
-                    Enable-UserAccount -Username $_.Username
+                    Enable-ADAccount -Identity $_.Username
                 }
             }
             elseif ($usernameOption -eq "E") {
                 $username = Read-Host "Geben Sie den Benutzernamen ein"
-                Enable-UserAccount -Username $username
+                Enable-ADAccount -Identity $username
             }
             else {
                 Write-Host "Ungültige Option"
@@ -148,12 +148,12 @@ function Execute-Option {
             if ($usernameOption -eq "A") {
                 $allUsers = Import-Csv -Path "C:\github\PS-AD_CoWa\Data\schueler.csv"  
                 $allUsers | ForEach-Object {
-                    Reset-UserPassword -Username $_.Username
+                    Reset-ADPassword -Identity $_.Username
                 }
             }
             elseif ($usernameOption -eq "E") {
                 $username = Read-Host "Geben Sie den Benutzernamen ein"
-                Reset-UserPassword -Username $username
+                Reset-ADPassword -Identity $username
             }
             else {
                 Write-Host "Ungültige Option"

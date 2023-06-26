@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.32-11" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" namespace="" author="longa" created="2023-06-25" changedby="longa" changed="2023-06-25" origin="Structorizer 3.32-11" text="&#34;menü&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<while text="&#34;Funktion zum Anzeigen des Hauptmenüs&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+			<qWhile>
+				<instruction text="&#34;Konsole wird geleert&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+				<instruction text="&#34;Menü wird Formatiert&#34;" comment="&#34;    Clear-Host&#34;,&#34;    Write-Host &#34;&#34;============================================================&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;                  Unser Projekt Menü&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;============================================================&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;Hauptmenü&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;1. Erstellen der AD-Accounts für alle Lernenden&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;2. Gruppenverwaltung&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;3. Protokollierung der Benutzerinformationen&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;4. Benutzerübersicht&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;5. Benutzerverwaltung&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;6. Benutzerkonten deaktivieren&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;7. Benutzerkonten löschen&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;8. Klassenverwaltung&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;Q. Beenden&#34;&#34;&#34;,&#34;    Write-Host &#34;&#34;============================================================&#34;&#34;&#34;,&#34;    Write-Host&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qWhile>
+		</while>
+		<while text="&#34;Funktion zum Ausführen der ausgewählten Option&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+			<qWhile>
+				<while text="&#34;Switch zum ausführen der Scripts&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+					<qWhile>
+						<instruction text="&#34;1. Führe Erstellen/Deaktivieren der AD-Accounts für alle Lernenden aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;2. Führe Gruppenverwaltung aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;3. Führe Protokollierung der Benutzerinformationen aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;4. Führe Benutzerübersicht aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;5. Führe Benutzerverwaltung aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;6. Führe Benutzerkonten deaktivieren aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;7. Führe Benutzerkonten löschen aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<while text="&#34;Switch zum Löschen von Benutzern&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+							<qWhile>
+								<instruction text="&#34;A. Lösche alle Benutzer&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;B. Geben Sie den Benutzernamen (Vorname_Nachname) des zu löschenden Benutzers ein:&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+								<instruction text="&#34;Default. Ungültige Option. Kein Benutzer wird gelöscht.&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qWhile>
+						</while>
+						<instruction text="&#34;8. Führe Klassenzuweisung aus&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;Q. Das Skript wird beendet.&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<instruction text="&#34;Default. Ungültige Option. Bitte wählen Sie eine gültige Option aus.&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qWhile>
+				</while>
+				<while text="&#34;while true&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+					<qWhile>
+						<instruction text="&#34;Wählen Sie eine Option aus dem Menü (1-8, Q zum Beenden):&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+						<alternative text="&#34;Wenn Benutzer Q drückt&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+							<qTrue>
+								<instruction text="&#34;true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qTrue>
+							<qFalse color="ffffff">
+							</qFalse>
+						</alternative>
+					</qWhile>
+				</while>
+			</qWhile>
+		</while>
+	</children>
+</root>
